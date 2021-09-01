@@ -4,7 +4,7 @@
   <head>
     <title>Cherry Pot Marketing</title>
 	
-	<style>	
+	<style>
 	body {
 	  min-height: 100vh;
 	  display: flex;
@@ -75,7 +75,6 @@
 	
 	#subscribe{
 	  display: inline-block;
-	  
 	}
 	
 	#footer_logo, #contact{
@@ -87,6 +86,56 @@
 	  padding-top:25%;	  
 	  padding-bottom:25%;
 	  cursor: pointer;
+	}
+	
+	#main_image, #info {
+	  display: inline-block;
+	  height: 50%;
+	 
+	}
+	
+	#main_image {
+	  margin-left:10%;
+	  margin-right:10%;
+	}
+	
+	#info {
+	  width: 40%;
+	  margin-left:15%;
+	  margin-right:5%;
+	}
+	
+	.color_circle {
+	  height: 30px;
+	  width: 30px;
+	  border-radius: 50%;
+	  display: inline-block;
+	  margin-right: 5%;
+	  cursor: pointer;
+	}
+	
+	#yellow {
+	  background-color:yellow;
+	}
+	
+	#blue {
+	  background-color:blue;
+	}
+	
+	#green {
+	  background-color:green;
+	}
+	
+	#orange {
+	   background-color:orange;
+	}
+	
+	#image_selections {
+	  margin:2%;
+	}
+	
+	#image_selections img {
+	  margin-right:2%;
 	}
 	
 	</style>
@@ -101,14 +150,48 @@
 	  <div id="menubar">
 	    <ul id="list">
 		  <li><a href="#footer">Contact Us</a></li>
-		  <li><a href="#content">Display C1</a></li>
 		  <li><a href="./Cherry_Pot_v1.html">Home</a></li>
 		</ul>
 	  </div>
 	</div>
 	
 	<div id="content">
-	 
+	  <div id="item">
+	    <div id="main_image" align="center">
+		  <img alt="main_product_image" />
+		</div>
+		
+		<div id="info">
+		  <h2>Product Description Here</h2>
+		  
+		  Color Available: <br />
+		  <span class="color_circle" id="yellow"></span>
+		  <span class="color_circle" id="blue"></span>
+		  <span class="color_circle" id="green"></span>
+		  <span class="color_circle" id="orange"></span>
+		  
+		  <br/><br/>
+		  <select id="size_list">
+		    <option selected="selected" disabled>Size</option>
+		    <option>S (10 X 20 X 20)</option>
+		    <option>M (20 X 40 X 40)</option>
+		    <option>L (40 X 80 X 80)</option>
+		  </select>
+		  
+		  <p>
+		    Open your door to the world of grilling with the sleek Spirit II E-210 gas grill. This two burner grill is built to fit small spaces, and packed with features such as the powerful GS4 grilling system, iGrill capability, and convenient side tables for placing serving trays. Welcome to the Weber family.
+		  </p>
+		</div>
+		
+		<div id="image_selections">
+		  <img alt="image_1" />
+		  <img alt="image_2" />
+		  <img alt="image_3" />
+		  <img alt="image_4" />
+		  <img alt="image_5" />
+		</div>
+		
+	  </div>
 	</div>
 	
 	<footer id="footer" align="center">

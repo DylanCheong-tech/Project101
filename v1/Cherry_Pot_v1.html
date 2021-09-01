@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+
+<html lang="en">
+  <head>
+    <title>Cherry Pot Marketing</title>
+	
+	<style>
+	body {
+	  min-height: 100vh;
+	  display: flex;
+	  flex-direction: column;
+	}
+	
+	footer {
+	  margin-top: auto;
+	}
+	
+	.header{
+	  background-color:grey;
+	  padding: 20px;
+	  margin:0;
+	}
+	
+	.header div{
+	  
+	  display: inline-block;
+	}
+
+	#logo img {
+	  cursor: pointer;
+	}
+
+	#menubar{
+	  float: right;
+	}
+	
+	#list{
+	  list-style-type: none;
+	  margin:0;
+	  padding: 0;
+	  overflow: 0;
+	  background-color:grey;
+	  
+	}
+	
+	#list li{
+	  display: inline-block;
+	  float: right;
+	}
+	
+	#list li a{
+	  
+	  
+	  text-align: center;
+	  padding: 25px;
+	  text-decoration: none;
+	}
+	
+	#list li a:hover{
+	  background-color: white;
+	}
+	
+	footer {
+	  background-color:grey;
+	  padding: 1.5%;
+	  
+	}
+	
+	#conpany_info{
+	  display: inline-block;
+	  width:50%;
+	  margin-right:10%;
+	  
+	}
+	
+	#subscribe{
+	  display: inline-block;
+	  
+	}
+	
+	#footer_logo, #contact{
+	  display: inline-block;
+	  padding-right: 10%;
+	}
+	
+	#footer_logo img {
+	  padding-top:25%;	  
+	  padding-bottom:25%;
+	  cursor: pointer;
+	}
+	
+	
+	#product h2{
+	  margin-left:2.5% ;
+	  margin-right:2.5% ;
+	  
+	  background-color: yellow;
+	}
+	
+	#items>span {
+	  width: 22%;
+	  margin: 5%;
+	  
+	  display: inline-block;
+	}
+	
+	#pagination td {
+	  border: solid black 1px;
+	}
+	
+	#pagination table {
+	  border: solid black 1px;
+	  border-collapse: collapse;
+	  width: 3em;
+	  margin: 1em;
+	}
+	#pagination {
+	  display: block;
+	  margin: 1em;
+	}
+	
+	#pagination table td:hover {
+	  background-color: grey;
+	}
+	</style>
+  </head>
+  
+  <body>
+    <div class="header">
+	  <div id="logo">
+	    <img alt="image_logo" onclick="window.location.href='./Cherry_Pot_v1.html';" />
+	  </div>
+	  
+	  <div id="menubar">
+	    <ul id="list">
+		  <li><a href="#footer">Contact Us</a></li>
+		  <li><a href="#content">Display C1</a></li>
+		  <li><a href="./Cherry_Pot_v1.html">Home</a></li>
+		</ul>
+	  </div>
+	</div>
+	
+	<div id="content">
+	  <div id="intro" align="center">
+	    <img alt="company_intro_image" />
+	  </div>
+	
+	
+	  <div id="product">
+	    <h2 align="center">Display Category 2</h2>
+		
+		<div id="items">
+		  <span align="center">
+		    <img alt="product_item_image" />
+			<br />
+			<button>Button Here</button>
+			<br />
+			<span>Stock: Avialable</span>
+			<br />
+			<textarea>Product Details</textarea>
+		  </span>
+		  
+		  <span align="center">
+		    <img alt="product_item_image" />
+			<br />
+			<button>Button Here</button>
+			<br />
+			<span>Stock: Avialable</span>
+			<br />
+			<textarea>Product Details</textarea>
+		  </span>
+		  
+		  <span align="center">
+		    <img alt="product_item_image" />
+			<br />
+			<button>Button Here</button>
+			<br />
+			<span>Stock: Avialable</span>
+			<br />
+			<textarea>Product Details</textarea>
+		  </span>
+		  
+		  <span align="center">
+		    <img alt="product_item_image" />
+			<br />
+			<button>Button Here</button>
+			<br />
+			<span>Stock: Avialable</span>
+			<br />
+			<textarea>Product Details</textarea>
+		  </span>
+		  
+		  <span align="center">
+		    <img alt="product_item_image" />
+			<br />
+			<button>Button Here</button>
+			<br />
+			<span>Stock: Avialable</span>
+			<br />
+			<textarea>Product Details</textarea>
+		  </span>
+		  
+		  <span align="center">
+		    <img alt="product_item_image" />
+			<br />
+			<button>Button Here</button>
+			<br />
+			<span>Stock: Avialable</span>
+			<br />
+			<textarea>Product Details</textarea>
+		  </span>
+		</div>
+		
+		<div id="pagination" align="right">
+		  <table>
+		    <tr align="center">
+			  <td>1</td>
+			  <td>2</td>
+			</tr>
+		  </table>
+		</div>
+	  
+	    <h2 align="center">~~ End ~~</h2>
+
+	</div>
+	
+	<div id="portfolio" align="center">
+	  <h2>Portfolio</h2>
+	  
+	  <p>
+	    Lorem ipsum dolor sit amet, consectetur adipiscing elit <br/>
+        In nec nibh vitae erat affictur faucibus.		
+	  </p>
+	  
+	  <br />
+	  <br />
+	  <img alt="portfolio_image" />
+	  
+	  <br />
+	  <br />
+	</div>
+	
+	<footer id="footer" align="center">
+      <div id="conpany_info" align="left">
+	    <div id="footer_logo" align="center">
+	      <img alt="image_logo" onclick="window.location.href='./Cherry_Pot_v1.html';" />
+	    </div>
+	
+	    <div id="contact" align="left">
+	      <h3>Contact Us</h3>
+	      <p> Ba ba black sheep</p>
+	      <p> Ba ba black sheep</p>
+	      <p> Ba ba black sheep</p>
+	   </div>
+	  </div>
+    
+	
+	  <div id="subscribe" align="center">
+	    <p>Get our newsletter :</p>
+	    <input type="text" />
+	  </div>
+    </footer>
+  </body>
+  
+  
+
+</html>
