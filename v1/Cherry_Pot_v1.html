@@ -16,22 +16,31 @@
 	}
 	
 	.header{
+	  /*header background color here*/
 	  background-color:grey;
 	  padding: 20px;
 	  margin:0;
 	}
 	
 	.header div{
-	  
 	  display: inline-block;
 	}
 
 	#logo img {
 	  cursor: pointer;
+	  height:30%;
+	  width: 15%;
+	}
+
+	#logo {
+	  display: inline-block;
+	  width: 50%;
 	}
 
 	#menubar{
 	  float: right;
+	  display: inline-block;
+	  
 	}
 	
 	#list{
@@ -39,28 +48,38 @@
 	  margin:0;
 	  padding: 0;
 	  overflow: 0;
+	  /*header color background color **same as above */
 	  background-color:grey;
-	  
 	}
 	
 	#list li{
 	  display: inline-block;
 	  float: right;
+	  padding-top:8%;	  
 	}
 	
 	#list li a{
-	  
-	  
 	  text-align: center;
 	  padding: 25px;
 	  text-decoration: none;
+	  transition: all 2s;
+	  border-radius: 12.5%;
+	  /*font color of the header menu bar*/
+	  color: white;
 	}
 	
 	#list li a:hover{
+	  /*hover effect background color*/
 	  background-color: white;
 	}
 	
+	#intro img {
+	  max-width: 100%;
+	  height:auto;
+	}
+	
 	footer {
+	  /*footer background color*/
 	  background-color:grey;
 	  padding: 1.5%;
 	  
@@ -68,25 +87,36 @@
 	
 	#conpany_info{
 	  display: inline-block;
-	  width:50%;
+	  width:60%;
 	  margin-right:10%;
 	  
 	}
 	
 	#subscribe{
 	  display: inline-block;
-	  
+	  /*subscribe newsletter font color*/
+	  color: white;
 	}
 	
-	#footer_logo, #contact{
+	#footer_logo{
 	  display: inline-block;
-	  padding-right: 10%;
+	  padding-right: 5%;
+	  width:40%;
+	}
+	
+	#contact {
+	  display: inline-block;
+	  padding-right: 5%;
+	  width:40%;
+	  /*contact detail font color */
+	  color: white;
 	}
 	
 	#footer_logo img {
-	  padding-top:25%;	  
-	  padding-bottom:25%;
 	  cursor: pointer;
+	  height:65%;
+	  width: 40%;
+	  padding-bottom: 5%;
 	}
 	
 	
@@ -120,6 +150,7 @@
 	}
 	
 	#pagination table td:hover {
+	  /*pagination number hover background color*/
 	  background-color: grey;
 	}
 	</style>
@@ -128,13 +159,13 @@
   <body>
     <div class="header">
 	  <div id="logo">
-	    <img alt="image_logo" onclick="window.location.href='./Cherry_Pot_v1.html';" />
+	    <img alt="image_logo" src="./img/cp_logo.jpg" onclick="window.location.href='./Cherry_Pot_v1.html';" />
 	  </div>
 	  
 	  <div id="menubar">
 	    <ul id="list">
 		  <li><a href="#footer">Contact Us</a></li>
-		  <li><a href="#content">Display C1</a></li>
+		  <li><a href="#product">Display C1</a></li>
 		  <li><a href="./Cherry_Pot_v1.html">Home</a></li>
 		</ul>
 	  </div>
@@ -142,7 +173,7 @@
 	
 	<div id="content">
 	  <div id="intro" align="center">
-	    <img alt="company_intro_image" />
+	    <img alt="company_intro_image" src="./img/main_img.jpg" />
 	  </div>
 	
 	
@@ -243,7 +274,7 @@
 	<footer id="footer" align="center">
       <div id="conpany_info" align="left">
 	    <div id="footer_logo" align="center">
-	      <img alt="image_logo" onclick="window.location.href='./Cherry_Pot_v1.html';" />
+	      <img alt="image_logo" src="./img/cp_logo.jpg" onclick="window.location.href='./Cherry_Pot_v1.html';" />
 	    </div>
 	
 	    <div id="contact" align="left">

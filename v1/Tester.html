@@ -28,13 +28,6 @@
 
 	#logo img {
 	  cursor: pointer;
-	  height:30%;
-	  width: 15%;
-	}
-	
-	#logo {
-	  display: inline-block;
-	  width: 50%;
 	}
 
 	#menubar{
@@ -53,15 +46,15 @@
 	#list li{
 	  display: inline-block;
 	  float: right;
-	  padding-top:8%;	
 	}
 	
 	#list li a{
-	   text-align: center;
+	  
+	  
+	  text-align: center;
 	  padding: 25px;
 	  text-decoration: none;
 	  transition: all 2s;
-	  border-radius: 12.5%;
 	}
 	
 	#list li a:hover{
@@ -85,23 +78,15 @@
 	  display: inline-block;
 	}
 	
-	#footer_logo{
+	#footer_logo, #contact{
 	  display: inline-block;
-	  padding-right: 5%;
-	  width:40%;
-	}
-	
-	#contact {
-	  display: inline-block;
-	  padding-right: 5%;
-	  width:40%;
+	  padding-right: 10%;
 	}
 	
 	#footer_logo img {
+	  padding-top:25%;	  
+	  padding-bottom:25%;
 	  cursor: pointer;
-	  height:65%;
-	  width: 40%;
-	  padding-bottom: 5%;
 	}
 	
 	#main_image, #info {
@@ -124,12 +109,6 @@
 	  width: 40%;
 	  margin-left:5%;
 	  margin-right:5%;
-	}
-	
-	#colors {
-	  height: 4em;
-	  margin-top:5%;
-	  margin-bottom: 5%;
 	}
 	
 	.color_circle {
@@ -184,7 +163,7 @@
   <body>
     <div class="header">
 	  <div id="logo">
-	    <img alt="image_logo" src="./img/cp_logo.jpg" onclick="window.location.href='./Cherry_Pot_v1.html';" />
+	    <img alt="image_logo" onclick="window.location.href='./Cherry_Pot_v1.html';" />
 	  </div>
 	  
 	  <div id="menubar">
@@ -204,14 +183,13 @@
 		<div id="info">
 		  <h2>Product Description Here</h2>
 		  
-		  Color Available:
-		  <div id="colors">
-		    <span class="color_circle" id="yellow" onclick="changeColor(this)" ></span>
-		    <span class="color_circle" id="blue" onclick="changeColor(this)" ></span>
-		    <span class="color_circle" id="green" onclick="changeColor(this)" ></span>
-		    <span class="color_circle" id="orange" onclick="changeColor(this)" ></span>
-		  </div>
+		  Color Available: <br />
+		  <span class="color_circle" id="yellow" onclick="changeColor(this)" ></span>
+		  <span class="color_circle" id="blue" onclick="changeColor(this)" ></span>
+		  <span class="color_circle" id="green" onclick="changeColor(this)" ></span>
+		  <span class="color_circle" id="orange" onclick="changeColor(this)" ></span>
 		  
+		  <br/><br/>
 		  <select id="size_list">
 		    <option selected="selected" disabled>Size</option>
 		    <option>S (10 X 20 X 20)</option>
@@ -282,7 +260,7 @@
 	<footer id="footer" align="center">
       <div id="conpany_info" align="left">
 	    <div id="footer_logo" align="center">
-	      <img alt="image_logo" src="./img/cp_logo.jpg" onclick="window.location.href='./Cherry_Pot_v1.html';" />
+	      <img alt="image_logo" onclick="window.location.href='./Cherry_Pot_v1.html';" />
 	    </div>
 	
 	    <div id="contact" align="left">
