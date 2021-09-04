@@ -2,92 +2,121 @@
 
 <html lang="en">
   <head>
-    <title>Cherry Pot Marketing</title>
+    <title>[Product Name]</title>
+	
+	<!-- font style import links -->
+	<link href="https://fonts.googleapis.com/css?family=Voces" rel='stylesheet' />
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;400&display=swap" rel='stylesheet' />
+	<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;400&family=Shanti&display=swap" rel="stylesheet" />
+	<!-- page icon -->
+	<link type="image/icon type" rel="icon" href="./img/cp_icon.png"/>
 	
 	<style>
+	/*scroll bar design*/
+	::-webkit-scrollbar {
+	  width: 15px;
+	}
+	
+	::-webkit-scrollbar-track {
+	  box-shadow: inset 0 0 5px #226D46;
+	  border-radius: 10px;
+	}
+	
+	::-webkit-scrollbar-thumb {
+	  background: #226D46;
+	  border-radius: 10px;
+	}
+	
+	::-webkit-scrollbar-thumb: hover {
+	  background: #b30000;
+	}
+	
+	/*header - body - footer (may consistency in any pages)*/
 	body {
 	  min-height: 100vh;
 	  display: flex;
 	  flex-direction: column;
+	  background-color: #E9F5DB;
 	}
 	
-	footer {
-	  margin-top: auto;
-	}
-	
-	.header{
-	  background-color:grey;
+	#header{
+	  /*header background color here*/
+	  background-color:#226D46;
 	  padding: 20px;
-	  margin:0;
 	}
 	
-	.header div{
-	  
+	#header div{
 	  display: inline-block;
 	}
 
 	#logo img {
 	  cursor: pointer;
-	  height:30%;
-	  width: 15%;
+	  height:auto;
+	  width: 100%;
 	}
 	
 	#logo {
-	  display: inline-block;
-	  width: 50%;
+	 width: 49%;
+	 height: 50%;
 	}
-
+	
 	#menubar{
-	  float: right;
+	  width: 40%;
+	  margin-left:5%;
 	}
-	
-	#list{
-	  list-style-type: none;
-	  margin:0;
-	  padding: 0;
-	  overflow: 0;
-	  background-color:grey;
-	  
-	}
-	
-	#list li{
+		
+	#list a{
 	  display: inline-block;
-	  float: right;
-	  padding-top:8%;	
-	}
-	
-	#list li a{
-	   text-align: center;
-	  padding: 25px;
+	  text-align: center;
+	  padding: 20px;
+	  margin: 10px;
 	  text-decoration: none;
 	  transition: all 2s;
-	  border-radius: 12.5%;
+	  border-radius: 15px;
+	  /*font color of the header menu bar*/
+	  color: #E9F5DB;
+	  
+	  font-family: 'Voces';
+	  font-size: 30px;
 	}
 	
-	#list li a:hover{
-	  background-color: white;
+	#list a:hover{
+	  /*hover effect background color*/
+	  background-color: #D4340C;
+	}
+	
+	#intro img {
+	  width: 100%;
+	}
+	
+	#portfolio {
+	  font-family: 'Shanti' , sans-serif;
 	}
 	
 	footer {
-	  background-color:grey;
+	  margin-top: auto;
+	  /*footer background color*/
+	  background-color:#226D46;
 	  padding: 1.5%;
-	  
 	}
 	
 	#conpany_info{
 	  display: inline-block;
-	  width:50%;
-	  margin-right:10%;
-	  
+	  width:65%;
+	  font-family: 'Voces';
 	}
 	
 	#subscribe{
 	  display: inline-block;
+	  width: 30%;
+	  /*subscribe newsletter font color*/
+	  color: #E9F5DB;
+	  font-family: 'Voces';
+	  font-size: 25px;
 	}
 	
 	#footer_logo{
 	  display: inline-block;
-	  padding-right: 5%;
 	  width:40%;
 	}
 	
@@ -95,13 +124,16 @@
 	  display: inline-block;
 	  padding-right: 5%;
 	  width:40%;
+	  /*contact detail font color */
+	  color: #E9F5DB;
 	}
 	
+		
 	#footer_logo img {
 	  cursor: pointer;
-	  height:65%;
-	  width: 40%;
-	  padding-bottom: 5%;
+	  height:auto;
+	  width: 35%;
+	  padding-bottom: 8%;
 	}
 	
 	#main_image, #info {
@@ -124,6 +156,15 @@
 	  width: 40%;
 	  margin-left:5%;
 	  margin-right:5%;
+	  font-family: 'Roboto' , sans-serif;
+	}
+	
+	#color_avail_text {
+	  font-size: 20px;
+	}
+	
+	#info p{
+	  font-family: 'Shanti' , sans-serif;
 	}
 	
 	#colors {
@@ -132,6 +173,21 @@
 	  margin-bottom: 5%;
 	}
 	
+	#size_list {
+	  font-family: 'Roboto' , sans-serif;
+	  font-size:20px;
+	  width:30%;
+	  height: auto;
+	  
+	  background-color: #226D46;
+	  color: #E9F5DB;
+	}
+	/*D4340C -- RED*/
+	
+	#size_list:hover {
+	  cursor: pointer;
+	}
+
 	.color_circle {
 	  height: 30px;
 	  width: 30px;
@@ -139,12 +195,11 @@
 	  display: inline-block;
 	  margin-right: 5%;
 	  cursor: pointer;
-	  transition: all 1s;
 	}
 	
 	#yellow {
 	  background-color:yellow;
-	  border: solid black 3px;
+	  border: solid #226D46 3px;
 	}
 	
 	#blue {
@@ -173,25 +228,21 @@
 	  border: dotted black 2px;
 	}
 	
-	.color_circle:hover{
-	  height: 60px;
-	  width: 60px;
-	}
 	
 	</style>
   </head>
   
   <body>
-    <div class="header">
+    <div id="header">
 	  <div id="logo">
-	    <img alt="image_logo" src="./img/cp_logo.jpg" onclick="window.location.href='./Cherry_Pot_v1.html';" />
+	    <img alt="image_logo" src="./img/cp_logo.png" onclick="window.location.href='./Cherry_Pot_v1.html';" />
 	  </div>
 	  
-	  <div id="menubar">
-	    <ul id="list">
-		  <li><a href="#footer">Contact Us</a></li>
-		  <li><a href="./Cherry_Pot_v1.html">Home</a></li>
-		</ul>
+	  <div id="menubar" align="right">
+	    <span id="list">
+		  <a href="./Cherry_Pot_v1.html">Home</a>
+		  <a href="#footer">Contact Us</a>
+		</span>
 	  </div>
 	</div>
 	
@@ -204,7 +255,7 @@
 		<div id="info">
 		  <h2>Product Description Here</h2>
 		  
-		  Color Available:
+		  <span id="color_avail_text">Color Available:</span>
 		  <div id="colors">
 		    <span class="color_circle" id="yellow" onclick="changeColor(this)" ></span>
 		    <span class="color_circle" id="blue" onclick="changeColor(this)" ></span>
@@ -231,13 +282,39 @@
 		  <img alt="image_4" src="./img/5.jfif" id="img_4" onclick="changePic(this)" />
 		  <img alt="image_5" src="./img/6.jpg" id="img_5" onclick="changePic(this)" />
 		</div>
-		
-		<script>
-		  currentSelectedPic = document.getElementById("img_1");
+	  </div>
+	</div>
+	
+	<footer id="footer">
+      <div id="conpany_info" align="center">
+	    <div id="footer_logo" align="center">
+	      <img alt="image_logo" src="./img/cp_logo_1.jpg" onclick="window.location.href='./Cherry_Pot_v1.html';" />
+	    </div>
+	
+	    <div id="contact" align="left">
+	      <h2>Contact Us</h2>
+	      <p> Ba ba black sheep</p>
+	      <p> Ba ba black sheep</p>
+	      <p> Ba ba black sheep</p>
+	   </div>
+	  </div>
+    
+	  <div id="subscribe" align="left">
+	    <p>Get our newsletter :</p>
+	    <input type="text" />
+		<button id="subscribe_button">Subscribe</button>
+		<br/>
+		<span>Media Icons Here ... </span>
+	  </div>
+    </footer>
+	
+	<!-- JavaScript for the content -->
+	<script>
+		  var currentSelectedPic = document.getElementById("img_1");
 		
 		  function changePic (element)
 		  {
-			mainPicture = document.getElementById("main_item_image");
+			var mainPicture = document.getElementById("main_item_image");
 			mainPicture.src = element.src;
 			
 			currentSelectedPic.style.border = "none";
@@ -246,22 +323,24 @@
 		  }
 		  
 		  //////////////////////////////////////////
-		  currentSelectedColor = document.getElementById("yellow");
+		  var currentSelectedColor = document.getElementById("yellow");
 		  
 		  
 		  // this two arrays will be have the same size in logic 
-		  yellow = ["7.jpg" , "8.jpg" , "9.jpg" , "10.png" , "11.jfif"];
-		  blue = ["2.jpg" , "3.jpg" , "4.jpg" , "5.jfif" , "6.jpg"];
+		  // dummy for testing
+		  var yellow = ["7.jpg" , "8.jpg" , "9.jpg" , "10.png" , "11.jfif"];
+		  var blue = ["2.jpg" , "3.jpg" , "4.jpg" , "5.jfif" , "6.jpg"];
 		  
-		  imageSelectionIdArray = ["img_1" , "img_2" , "img_3" , "img_4" , "img_5"];
+		  // id of the image tag in the HTML, (it may depeds client provide how many picture for a page)
+		  var imageSelectionIdArray = ["img_1" , "img_2" , "img_3" , "img_4" , "img_5"];
 		  
 		  function changeColor (element)
 		  {
-		    console.log(element.id);
+		    // console.log(element.id);
 			
 			for (i = 0 ; i < 5 ; i++)
 			{
-			  imgComponent = document.getElementById(imageSelectionIdArray[i]);
+			  var imgComponent = document.getElementById(imageSelectionIdArray[i]);
 			  
 			  if (element.id === "yellow")
 				imgComponent.src = "./img/" + yellow[i];
@@ -272,35 +351,8 @@
 			
 			currentSelectedColor.style.border = "none";
 			currentSelectedColor = element;
-			currentSelectedColor.style.border = "solid black 3px";
+			currentSelectedColor.style.border = "solid #226D46 3px";
 		  }
-		</script>
-		
-	  </div>
-	</div>
-	
-	<footer id="footer" align="center">
-      <div id="conpany_info" align="left">
-	    <div id="footer_logo" align="center">
-	      <img alt="image_logo" src="./img/cp_logo.jpg" onclick="window.location.href='./Cherry_Pot_v1.html';" />
-	    </div>
-	
-	    <div id="contact" align="left">
-	      <h3>Contact Us</h3>
-	      <p> Ba ba black sheep</p>
-	      <p> Ba ba black sheep</p>
-	      <p> Ba ba black sheep</p>
-	   </div>
-	  </div>
-    
-	
-	  <div id="subscribe" align="center">
-	    <p>Get our newsletter :</p>
-	    <input type="text" />
-	  </div>
-    </footer>
+	</script>
   </body>
-  
-  
-
 </html>
