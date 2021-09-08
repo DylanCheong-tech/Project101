@@ -115,6 +115,12 @@
 	  font-size: 25px;
 	}
 	
+	#userNotify {
+	  font-size: 15px;
+	  border: solid 1px #D43406;
+	  display: none;
+	}
+	
 	#footer_logo{
 	  display: inline-block;
 	  width:40%;
@@ -301,9 +307,10 @@
     
 	  <div id="subscribe" align="left">
 	    <p>Get our newsletter :</p>
-	    <input type="text" />
-		<button id="subscribe_button">Subscribe</button>
+	    <input id="userEmail" type="email" />
+		<button id="subscribe_button" onclick="subscribe()">Subscribe</button>
 		<br/>
+		<div id="userNotify" align="center"></div>
 		<span>Media Icons Here ... </span>
 	  </div>
     </footer>
@@ -353,6 +360,23 @@
 			currentSelectedColor = element;
 			currentSelectedColor.style.border = "solid #226D46 3px";
 		  }
+		  
+		var globalEmailStorage = [];
+		var storageIndex = 0;
+		function subscribe ()
+		{
+		  var emailAddress = document.getElementById("userEmail").value;
+		  
+		  // if empty dont add it into the storage
+		  if (emailAddress !== "")
+		  {
+		    globalEmailStorage[storageIndex++] = emailAddress;
+			var userReply = document.getElementById("userNotify");
+			userReply.style.display = "block";
+			userReply.innerHTML = "Subscribe Successfully !";
+		  }
+		  console.log(globalEmailStorage);
+		}
 	</script>
   </body>
 </html>

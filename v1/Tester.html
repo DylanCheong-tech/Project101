@@ -48,23 +48,22 @@
 	}
 	
 	#header div{
-	  display: inline-block;
+	  display: block;
 	}
 
 	#logo img {
 	  cursor: pointer;
 	  height:auto;
-	  width: 100%;
+	  width: 50%;
 	}
 	
 	#logo {
-	 width: 49%;
 	 height: 50%;
 	}
 	
 	#menubar{
-	  width: 40%;
 	  margin-left:5%;
+	  font-size: 175%;
 	}
 		
 	#list a{
@@ -79,7 +78,7 @@
 	  color: #E9F5DB;
 	  
 	  font-family: 'Voces';
-	  font-size: 30px;
+	  
 	}
 	
 	#list a:hover{
@@ -115,6 +114,12 @@
 	  color: #E9F5DB;
 	  font-family: 'Voces';
 	  font-size: 25px;
+	}
+	
+	#userNotify {
+	  font-size: 15px;
+	  border: solid 1px #D43406;
+	  display: none;
 	}
 	
 	#footer_logo{
@@ -277,9 +282,10 @@
 	
 	  <div id="subscribe" align="left">
 	    <p>Get our newsletter :</p>
-	    <input type="text" />
-		<button id="subscribe_button">Subscribe</button>
+	    <input id="userEmail" type="email" />
+		<button id="subscribe_button" onclick="subscribe()">Subscribe</button>
 		<br/>
+		<div id="userNotify" align="center"></div>
 		<span>Media Icons Here ... </span>
 	  </div>
     </footer>
@@ -308,59 +314,8 @@
 		// get the parent element
 		var divFrame = document.getElementById("items");
 		
-		for (i = 0 ; i < 6 ; i++){
-			var newSpan = document.createElement("span");
-			newSpan.style.textAlign = "center";
-			
-			var breakLine = document.createElement("br");
-			
-			var imgEle = document.createElement("img");
-			imgEle.alt = "product_item_image";
-			imgEle.src = productInfo[i].img;
-			
-			var buttonEle = document.createElement("button");
-			buttonEle.innerHTML = productInfo[i].name;
-			buttonEle.className = "product_button";
-			
-			var stockEle = document.createElement("div");
-			stockEle.innerHTML = "Stock : " + productInfo[i].stock;
-			
-			var detailEle = document.createElement("div");
-			detailEle.className = "productDetails";
-			detailEle.innerHTML = productInfo[i].details;
-			
-			newSpan.appendChild(imgEle);		
-			newSpan.appendChild(breakLine);		
-			newSpan.appendChild(buttonEle);		
-			newSpan.appendChild(stockEle);
-			newSpan.appendChild(detailEle);
-			
-			// console.log(newSpan + i);
-			// console.log(divFrame);
-			
-			divFrame.appendChild(newSpan);
-		}
-		
-		var currentSelectedPage = document.getElementById("page_1");
-		function changePage (pageNumber, element)
+		function displayItems (pageNumber)
 		{
-			currentSelectedPage.style.backgroundColor = "transparent";
-			currentSelectedPage.style.color = "#0F370F";
-			currentSelectedPage = element;
-			currentSelectedPage.style.backgroundColor = "#D43406";
-			currentSelectedPage.style.color = "#E9F5DB";
-			
-			var child = divFrame.lastChild;
-			while (child)
-			{
-				divFrame.removeChild(child);
-				child = divFrame.lastChild;
-			}
-		
-			pageNumber = parseInt(pageNumber.substring(pageNumber.length - 1)) - 1;
-			// console.log(pageNumber);
-			// console.log(productInfo.length)
-			
 			var end = ((pageNumber * 6) + 6 > productInfo.length) ? productInfo.length : (pageNumber * 6) + 6;
 			// console.log(end);
 			
@@ -397,8 +352,50 @@
 				
 				divFrame.appendChild(newSpan);
 			}
-			
 		}
+		
+		displayItems(0);
+		
+		var currentSelectedPage = document.getElementById("page_1");
+		function changePage (pageNumber, element)
+		{
+			currentSelectedPage.style.backgroundColor = "transparent";
+			currentSelectedPage.style.color = "#0F370F";
+			currentSelectedPage = element;
+			currentSelectedPage.style.backgroundColor = "#D43406";
+			currentSelectedPage.style.color = "#E9F5DB";
+			
+			var child = divFrame.lastChild;
+			while (child)
+			{
+				divFrame.removeChild(child);
+				child = divFrame.lastChild;
+			}
+		
+			pageNumber = parseInt(pageNumber.substring(pageNumber.length - 1)) - 1;
+			// console.log(pageNumber);
+			// console.log(productInfo.length)
+			
+			displayItems(pageNumber);
+		}
+		
+		var globalEmailStorage = [];
+		var storageIndex = 0;
+		function subscribe ()
+		{
+		  var emailAddress = document.getElementById("userEmail").value;
+		  
+		  // if empty dont add it into the storage
+		  if (emailAddress !== "")
+		  {
+		    globalEmailStorage[storageIndex++] = emailAddress;
+			var userReply = document.getElementById("userNotify");
+			userReply.style.display = "block";
+			userReply.innerHTML = "Subscribe Successfully !";
+		  }
+		  console.log(globalEmailStorage);
+		}
+		
 	</script>
   </body>
  
