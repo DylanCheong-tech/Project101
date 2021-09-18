@@ -2,7 +2,7 @@
 
 <html lang="en">
   <head>
-    <title>[Product Name]</title>
+    <title id="title"></title>
 	
 	<!-- font style import links -->
 	<link href="https://fonts.googleapis.com/css?family=Voces" rel='stylesheet' />
@@ -377,6 +377,14 @@
 		  }
 		  console.log(globalEmailStorage);
 		}
+		
+		
+		// testing here 
+		var product = window.localStorage.getItem("product_name");
+		console.log (product);
+		
+		var pageTitle = document.getElementById("title");
+		pageTitle.innerHTML = product;
 	</script>
   </body>
 </html>

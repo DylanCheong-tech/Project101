@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+
+<html lang="en">
+  <head>	
+    <!--Google jQuery CDN-->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+	<!-- font style import links -->
+    <link href="https://fonts.googleapis.com/css?family=Voces" rel='stylesheet' />
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;400&display=swap" rel='stylesheet' />
+	<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;400&family=Shanti&display=swap" rel="stylesheet" />
+	
+	<!-- page icon -->
+	<link type="image/icon type" rel="icon" href="./img/cp_icon.png"/>
+	
+    <title>Cherry Pot Marketing</title>
+	
+	<link rel="stylesheet" type="text/css" href="style.css" />
+  </head>
+  
+  <body>
+    <div id="header">
+	  <div id="logo">
+	    <img alt="image_logo" src="./img/cp_logo.png" onclick="window.location.href='./Cherry_Pot_v1.html';" />
+	  </div>
+	  
+	  <div id="menubar" align="right">
+	    <span id="list">
+		  <a href="#_planterBox">Planter Box</a>
+		  <a href="#_pot">Pot</a>
+		  <a href="#_potFeet">Pot Feet</a>
+		  <a href="#_potHanger">Pot Hanger</a>
+		  <a href="#_saucer">Saucer</a>
+		  <a href="#footer">Contact Us</a>
+		</span>
+	  </div>
+	</div>
+	
+	<div id="content">
+	  <div id="intro" align="center">
+	    <img alt="company_intro_image" src="./img/main_img.png" />
+	  </div>
+	  
+	  <div id="_planterBox">
+	    <h2 align="center">Planter Box</h2>
+		
+		<div id="planter_box" class="items">
+		  
+		</div>
+		
+		
+		<div class="pagination" align="right">
+		  <table>
+		    <tr class="page_tr" align="center">
+			  <td class="planter_box_page" onclick="changePage(1, this)" >1</td>
+			  <td class="planter_box_page" onclick="changePage(2, this)" >2</td>
+			  <td class="planter_box_page" onclick="changePage(3, this)" >3</td>
+			</tr>
+		  </table>
+		</div>
+
+	  </div>
+	  
+	  <div id="_pot">
+	    <h2 align="center">Pot</h2>
+		
+		<div id="pot" class="items">
+		  
+		</div>
+		
+		
+		<div id="pot_page" class="pagination" align="right">
+		  <table>
+		    <tr class="page_tr" align="center">
+			  <td class="pot_page" onclick="changePage(1, this)" >1</td>
+			  <td class="pot_page" onclick="changePage(2, this)" >2</td>
+			</tr>
+		  </table>
+		</div>
+
+	  </div>
+	  
+	  <div id="_potFeet">
+	    <h2 align="center">Pot Feet</h2>
+		
+		<div id="pot_feet" class="items">
+		  
+		</div>
+		
+		
+		<div id="pot_feet_page" class="pagination" align="right">
+		  <table>
+		    <tr class="page_tr" align="center">
+			  <td class="pot_feet_page" onclick="changePage(1, this)" >1</td>
+			</tr>
+		  </table>
+		</div>
+
+	  </div>
+	  
+	  <div id="_potHanger">
+	    <h2 align="center">Pot Hanger</h2>
+		
+		<div id="pot_hanger" class="items">
+		  
+		</div>
+		
+		
+		<div id="pot_hanger_page" class="pagination" align="right">
+		  <table>
+		    <tr class="page_tr" align="center">
+			  <td class="pot_hanger_page" onclick="changePage(1, this)" >1</td>
+			</tr>
+		  </table>
+		</div>
+
+	  </div>
+	  
+	  <div id="_saucer">
+	    <h2 align="center">Saucer</h2>
+		
+		<div id="saucer" class="items">
+		  
+		</div>
+		
+		
+		<div id="saucer_page" class="pagination" align="right">
+		  <table>
+		    <tr class="page_tr" align="center">
+			  <td class="saucer_page" onclick="changePage(1, this)" >1</td>
+			</tr>
+		  </table>
+		</div>
+
+	  </div>
+
+	<div id="portfolio" align="center">
+	  <h1>Portfolio</h1>
+	  
+	  <p>
+	    Lorem ipsum dolor sit amet, consectetur adipiscing elit <br/>
+        In nec nibh vitae erat affictur faucibus.		
+	  </p>
+	  
+	  <br />
+	  <br />
+	  <img alt="portfolio_image" />
+	  
+	  <br />
+	  <br />
+	</div>
+	
+	<footer id="footer">
+      <div id="conpany_info" align="center">
+	    <div id="footer_logo" align="center">
+	      <img alt="image_logo" src="./img/cp_logo_1.jpg" onclick="window.location.href='./Cherry_Pot_v1.html';" />
+	    </div>
+	
+	    <div id="contact" align="left">
+	      <h2>Contact Us</h2>
+	      <p> Ba ba black sheep</p>
+	      <p> Ba ba black sheep</p>
+	      <p> Ba ba black sheep</p>
+	   </div>
+	  </div>
+    
+	
+	  <div id="subscribe" align="left">
+	    <p>Get our newsletter :</p>
+	    <input id="userEmail" type="email" />
+		<button id="subscribe_button" onclick="subscribe()">Subscribe</button>
+		<br/>
+		<div id="userNotify" align="center"></div>
+		<span>Media Icons Here ... </span>
+	  </div>
+    </footer>
+	
+	<!-- JavaScript for the item content -->
+	<script src="script.js"></script>
+  </body>
+ 
+</html>
