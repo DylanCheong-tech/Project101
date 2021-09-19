@@ -1,26 +1,19 @@
 // using AJAX techniques to request the local JSON data file 
 // the JSON data file is located in the same directory 
 
-var requestData = function () {
-	var temp = null;
-	$.ajax({
+var requestData = $.ajax({
 		"async": false,
-		"url" : "./data.json",
+		"url" : "./mainPageData.json",
 		"type" : "get",
 		"dataType" : "json",
 		"success" : function (data)
 		{
-			console.log("Data Loaded in successfuelly" , data);
-			
-			temp = data;
+			console.log("Data Loaded in successfuelly");
 		}
 	}).fail (function (error)
 	{
 		console.log("Failed load in data" , error);	
-	});
-	
-	return temp;
-}();
+}).responseJSON;
 
 // functions ::
 function displayItems (div_frame, pageNumber, info_src)
@@ -38,6 +31,7 @@ function displayItems (div_frame, pageNumber, info_src)
 		imgEle.alt = "product_item_image";
 		imgEle.src = info_src[i].img;
 		imgEle.style.width = "100%";
+		imgEle.style.borderRadius = "25px";
 		// imgEle.className = "productImage";
 		
 		var buttonEle = document.createElement("button");
