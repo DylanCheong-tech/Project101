@@ -1,0 +1,51 @@
+{
+	"planterBox": [
+		{"img" : "./img/Planter_Box/CP470/WHITE_01.jpg" , "name": "CP-470", "stock": "Available", 
+			"details" : "CP-470: L 47CM x W 17CM x H 16CM<br ><br >->MODERN<br >->DURABLE<br >->WIDE RANGE OF USES<br >->SAVE SPACE SAVE SOIL<br >->REUSABLE"},
+		{"img" : "./img/Planter_Box/CP670/WHITE_01.jpg" , "name": "CP-670", "stock": "Available",
+			"details" : "CP-670: L 67CM x W 21CM x H 19CM<br ><br >->MODERN<br >->DURABLE<br >->WIDE RANGE OF USES<br >->SAVE SPACE SAVE SOIL<br >->REUSABLE"}
+	],
+	
+	"pot": [
+		{"img" : "./img/Pot/CP120/BLACK_01.jpg" , "name": "CP-120", "stock": "Available", 
+			"details" : "SIZE DETIALS: <br >->OUTSIDE DIAMETER: 12.3CM<br >->INSIDE DIAMETER: 11.3CM<br >->HEIGHT: 10.2CM<br >->LOWER DIAMETER: 8CM<br ><br >Product Bundle:<br >->CP-01<br >->HANGER"},
+		{"img" : "./img/Pot/CP220/WHITE_01.jpg" , "name": "CP-220", "stock": "Available",
+			"details" : "SIZE DETAILS:<br >->OUTSIDE DIAMETER: 21 CM<br >->INSIDE DIAMETER: 18 CM<br >->HEIGHT: 13CM<br >->LOWER DIAMETER: 13CM<br ><br >PRODUCT BUNDLE:<br >->SAUCER CP-157<br >->HANGER"},
+		{"img" : "./img/Pot/CP3535/WHITE_01.jpg" , "name": "CP-3535", "stock": "Available",
+			"details" : "SIZE: D 26CM X W 26CM X H 18CM<br ><br >->WITHOUT HOLE & WITH HOLE<br >->WITH THICKNESS<br >->DURABLE<br >->MODERN<br >->SUITABLE FOR GROWING AQUATIC PLANTS"},
+		{"img" : "./img/Pot/NP120/WHITE_01.jpg" , "name": "NP-120", "stock": "Available",
+			"details" : "SIZE DETIALS:<br >->OUTSIDE DIAMETER: 12.5CM<br >->INSIDE DIAMETER: 11.5CM<br >->HEIGHT: 10CM<br >->LOWER DIAMETER: 8.5CM<br ><br >PRODUCT BUNDLE:<br >->SAUCER CP-01<br >->HANGER"},
+		{"img" : "./img/Pot/NP150/WHITE_01.jpg" , "name": "NP-150", "stock": "Available",
+			"details" : "SIZE DETIALS:<br >->OUTSIDE DIAMETER: 14.7CM<br >->INSIDE DIAMETER: 13.3CM<br >->HEIGHT: 12CM<br >->LOWER DIAMETER: 10CM<br ><br >PRODUCT BUNDLE:<br >->SAUCER CP-02<br >->HANGER"},
+		{"img" : "./img/Pot/NP170/WHITE_01.jpg" , "name": "NP-170", "stock": "Available",
+			"details" : "SIZE DETAILS: <br >->OUTSIDE DIAMETER: 17CM<br >->INSIDE DIAMETER: 15.5CM<br >->HEIGHT: 14CM<br >->LOWER DIAMETER: 13CM<br ><br >PRODUCT BUNDLE:<br >->SAUCER CP-157"}
+	],
+	
+	"potFeet": [
+		{"img" : "./img/Pot_Feet/CP23/BLACK_01.jpg" , "name": "CP-23", "stock": "Available",
+			"details" : "CP-23 SIZE: L 7.5CM X W 3.5CM X H 3.5CM {3 PCS}<br >->PACK OF 3 POT FEET<br >->HARD OF PRODUCT<br >->THIS PRODUCT USE WITH PUT THE FLOWERPOT"},
+		{"img" : "./img/Pot_Feet/CP28/BLACK_01.jpg" , "name": "CP-28", "stock": "Available",
+			"details" : "CP-28 SIZE: L 9CM X W 5CM X H 4.5CM {3PCS}<br >->PACK OF 3 POT FEET<br >->HARD OF PRODUCT<br >->THIS PRODUCT USE WITH PUT THE FLOWERPOT"}
+	],
+	
+	"potHanger": [
+		{"img" : "./img/Pot_Hanger/CP448/WHITE_01.jpg" , "name": "CP-448", "stock": "Available",
+			"details" : "SIZE: <br >->L: 4CM<br >->W: 1 CM<br >->H: 47 CM<br ><br >PRODUCT BUNDLE:<br >->HANGING PLASTIC POT"}
+	],
+	
+	"saucer": [
+		{"img" : "./img/Saucer/CP01/WHITE_01.jpg" , "name": "CP-01", "stock": "Available",
+			"details" : "SIZE : 10CM<br ><br >PRODUCT BUNDLE: <br >->NP-120<br >->CP-120"},
+		{"img" : "./img/Saucer/CP02/WHITE_01.jpg" , "name": "CP-02", "stock": "Available",
+			"details" : "SIZE : 14CM<br ><br >PRODUCT BUNDLE: <br >->NP-150<br >->CP-150"},
+		{"img" : "./img/Saucer/CP157/WHITE_01.jpg" , "name": "CP-157", "stock": "Available",
+			"details" : "SIZE : 15CM<br ><br >PRODUCT BUNDLE: <br >->NP-170<br >->CP-220"},
+		{"img" : "./img/Saucer/CP200/WHITE_01.jpg" , "name": "CP-200", "stock": "Available",
+			"details" : "SIZE : 20CM<br ><br >PRODUCT BUNDLE: <br >NONE"},
+		{"img" : "./img/Saucer/CP223/WHITE_01.jpg" , "name": "CP-223", "stock": "Available" ,
+			"details" : "SIZE : 23CM<br ><br >PRODUCT BUNDLE: <br >NONE"},
+		{"img" : "./img/Saucer/CP295/WHITE_01.jpg" , "name": "CP-295", "stock": "Available",
+			"details" : "SIZE : 29CM<br ><br >PRODUCT BUNDLE: <br >NONE"}
+	]
+	
+}

@@ -1,0 +1,85 @@
+	/*content part*/
+	.title{
+	  margin-left:2.5% ;
+	  margin-right:2.5% ;
+	  padding-top:1%;
+	  padding-bottom:1%;
+	  background-color: #90C473;
+	  border-radius:15px;
+	  color: #0F370F;
+	  
+	  font-family: 'Roboto'	, sans-serif;
+	  font-weight: bold;
+	}
+	
+	.items {
+		height: 60em;
+	}
+	
+	.items span {
+	  width: 22%;
+	  height: 30em;
+	  margin: 5%;
+	  display: inline-grid;
+	  transition: all 1s;
+	  
+	  font-family: 'Shanti', sen-serif;
+	}
+	
+	.items span button {
+	  font-family: 'Roboto', sans-serif;
+	  font-size: 16px;
+	  border-radius: 10px;
+	  padding: 12px;
+	  /*background-color: */
+	  cursor: pointer;
+	  color: white;
+      background-color: #90C473;
+      border-color: #0F370F;
+	  transition: all 1s;
+	}
+	
+	.items span button:hover {
+		color: #0F370F;
+		background-color: #E9F5DB;
+	}
+	
+	.items span div {
+	  margin-top:10%;
+	  
+	}
+		
+	.productDetails {
+	  border: dashed 3px #226D46;
+	  height: 100%;
+	  margin-left:0;
+	  margin-right:0;
+	  padding:5%;
+	  /*overflow: auto;*/
+	  font-size: 13px;
+	  text-align: left;
+	}
+		
+	.pagination table td {
+	  border-radius: 5px;
+	  cursor: pointer;
+	  transition: all 1s;
+	  font-size: 20px;
+	}
+	
+	.pagination table {
+	  
+	  width: 5em;
+	  margin: 1em;
+	}
+	
+	.pagination {
+	  display: block;
+	  margin: 1em;
+	}
+		
+	.page_tr td:first-child	{
+	  /*pagination number selected background color*/
+	  background-color: #D43406;
+	  color: #E9F5DB;
+	}
