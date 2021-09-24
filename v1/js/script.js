@@ -15,6 +15,8 @@ var requestData = $.ajax({
 		console.log("Failed load in data" , error);	
 }).responseJSON;
 
+console.log(requestData);
+
 // functions ::
 function displayItems (div_frame, pageNumber, info_src)
 {			
@@ -32,12 +34,12 @@ function displayItems (div_frame, pageNumber, info_src)
 		imgEle.src = info_src[i].img;
 		imgEle.style.width = "100%";
 		imgEle.style.borderRadius = "20px";
-		imgEle.addEventListener("click", redirect.bind(event, info_src[i].name));
+		imgEle.addEventListener("click", redirect.bind(event, info_src[i].code));
 		imgEle.className = "productImage";
 		imgEle.style.cursor = "pointer";
 		
 		var buttonEle = document.createElement("button");
-		buttonEle.addEventListener("click", redirect.bind(event, info_src[i].name));
+		buttonEle.addEventListener("click", redirect.bind(event, info_src[i].code));
 		buttonEle.id = info_src[i].name;
 		buttonEle.innerHTML = info_src[i].name;
 		buttonEle.className = "product_button";
@@ -62,10 +64,10 @@ function displayItems (div_frame, pageNumber, info_src)
 // testing		
 function redirect (product)
 {
+	window.localStorage.setItem("product_code",product);
+	
 	window.location = "./productPage.html";
 	// testing 
-	
-	window.localStorage.setItem("product_name",product);
 }
 
 // running thread -- 
@@ -119,7 +121,7 @@ function changePage (currentPage)
 	
 	var id = "#" + name;
 	
-	$(id).fadeOut(500, function () {
+	$(id).stop(true, true).fadeOut(500, function () {
 		var child = div_frames[name].lastChild;
 		while (child)
 		{
@@ -128,8 +130,10 @@ function changePage (currentPage)
 		}
 		displayItems(div_frames[name], pageNumber - 1, requestData[name]);
 		
-		$(id).fadeIn(500);
 	});
+	
+	$(id).fadeIn(500);
+	console.log("stopped here 2");
 }
 
 //displays items when the page is onLoaded

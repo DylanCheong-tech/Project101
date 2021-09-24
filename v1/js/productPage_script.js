@@ -17,24 +17,28 @@ console.log(productData);
 		
 // get the product name from the previous page 
 // window.localStorage
-var productName = window.localStorage.getItem("product_name");
-console.log (productName);
+var productCode = window.localStorage.getItem("product_code");
+console.log (productCode);
 		
 var pageTitle = document.getElementById("title");
-pageTitle.innerHTML = productName;
+pageTitle.innerHTML = productData[productCode]["name"];
 
 // fill in the content 
 
 // header title
-document.getElementById("header_title").innerHTML = productName;
+document.getElementById("product_name").innerHTML = productData[productCode]["name"];
+document.getElementById("product_code").innerHTML = productCode;
+console.log(productData[productCode][name]);
 
 // color options 
 var colorDiv = document.getElementById("colors");
 var counter = 0;
 
-for (color in productData[productName]["color"])
+console.log(productData[productCode]);
+
+for (color in productData[productCode]["color"])
 {
-	var temp = productData[productName]["color"][color];
+	var temp = productData[productCode]["color"][color];
 	
 	var span = document.createElement("span");
 	span.className = "color_circle";
@@ -55,7 +59,7 @@ var currentSelectedColor = document.getElementsByClassName("color_circle")[0];
 
 // product information 
 var information = document.getElementById("information");
-information.innerHTML = productData[productName]["details"];
+information.innerHTML = productData[productCode]["details"];
 
 
 // images 
@@ -65,8 +69,8 @@ var currentSelectedPic = undefined;
 
 function updateImages (color)
 {
-	var colorImgPath = productData[productName]["path"];
-	var colorImgArray = productData[productName]["img"][color];
+	var colorImgPath = productData[productCode]["path"];
+	var colorImgArray = productData[productCode]["img"][color];
 
 	mainImage.src = colorImgPath + colorImgArray[0];
 
@@ -90,7 +94,7 @@ updateImages(currentSelectedColor.id);
 
 function changeColor (currentColor)
 {		
-		$("#main_item_image, #image_selections").fadeOut(500, function () {
+		$("#main_item_image, #image_selections").stop(true, true).fadeOut(1000, function () {
 			var child = imageSelection.lastChild;
 			while (child)
 			{
@@ -99,7 +103,6 @@ function changeColor (currentColor)
 			}
 			
 			updateImages(currentColor.id);
-			
 		});
 		
 		$("#main_item_image, #image_selections").fadeIn(1000);
@@ -110,17 +113,15 @@ function changeColor (currentColor)
 	
 }
 
-console.log(currentSelectedPic);
-
 function changePic (element)
 {
 	var mainPicture = document.getElementById("main_item_image");
 	
-	$(mainPicture).fadeOut(500, function () {
+	$(mainPicture).stop(true, true).fadeOut(1000, function () {
 		mainPicture.src = element.src;
 	});
 	
-	$(mainPicture).fadeIn(500);
+	$(mainPicture).fadeIn(1000);
 		
 	currentSelectedPic.style.border = "solid #E9F5DB 3px";
 	currentSelectedPic = element;
