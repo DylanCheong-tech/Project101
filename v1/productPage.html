@@ -6,6 +6,10 @@
 	 <!--Google jQuery CDN-->
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
 	
+	<!--Google jQuery CDN (JS + stylesheet)-->
+	<link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/themes/smoothness/jquery-ui.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
+
 	<!-- font style import links -->
 	<link href="https://fonts.googleapis.com/css?family=Voces" rel='stylesheet' />
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;400&display=swap" rel='stylesheet' />
@@ -61,11 +65,9 @@
 	      <img alt="image_logo" src="./img/cp_logo_1.jpg" onclick="window.location.href='./index.html';" />
 	    </div>
 	
-	    <div id="contact" align="left">
-	      <h2>Contact Us</h2>
-	      <p> Ba ba black sheep</p>
-	      <p> Ba ba black sheep</p>
-	      <p> Ba ba black sheep</p>
+	    <div id="about_us" align="left">
+	      <h2>About Us</h2>
+	      <p>No 17, Industri Bercham 2a, Kaw Perindustrian Bercham, 31400 Bercham Ipoh Perak</p>
 	   </div>
 	  </div>
     
@@ -76,8 +78,21 @@
 		<br/>
 		<div id="userNotify" align="center"></div>
 		<span><img id="whatapps_icon" alt="whatapps_icon" src="./img/whatsapp_logo.png" /></span>
+		<div id="contactDialog" title="WhatApps" style="display: none;">
+			WhatApps Contact :
+			<ol>
+				<li>Khuen : (+60) 19 - 555 5538</li>
+				<li>Loon : (+60) 18 - 383 6389</li>
+			</ol>
+		</div>
 	  </div>
     </footer>
+
+	<!-- JavaScript for the item content -->
 	<script src="./js/productPage_script.js"></script>
+
+	<!--Footer media button effect function JavaScript-->
+	<script src="./js/footer_media_button.js"></script>
+	
   </body>
 </html>
