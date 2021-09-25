@@ -109,9 +109,17 @@ html {
 	  display: none;
 	}
 	
+	#whatapps_icon {
+		width: 30px;
+		margin-top: 10px;
+		cursor: pointer;
+	}
+	
 	#footer_logo{
 	  display: inline-block;
-	  width:40%;
+	  width:20%;
+	  vertical-align: top;
+	  margin-top: 3em;
 	}
 	
 	#contact {
@@ -121,11 +129,10 @@ html {
 	  /*contact detail font color */
 	  color: #E9F5DB;
 	}
-	
 		
 	#footer_logo img {
 	  cursor: pointer;
 	  height:auto;
-	  width: 35%;
+	  width: 80%;
 	  padding-bottom: 8%;
 	}
