@@ -24,12 +24,12 @@
   <body>
     <div id="header">
 	  <div id="logo">
-	    <img alt="image_logo" src="./img/cp_logo.png" onclick="window.location.href='./index.html';" />
+	    <img alt="image_logo" src="./img/cp_logo.png" onclick="window.location.href='/';" />
 	  </div>
 	  
 	  <div id="menubar" align="right">
 	    <span id="list">
-		  <a href="./index.html">Home</a>
+		  <a href="/">Home</a>
 		  <a href="#footer">Contact Us</a>
 		</span>
 	  </div>
@@ -60,39 +60,32 @@
 	</div>
 	
 	<footer id="footer">
-      <div id="company_info" align="left">
-	    <div id="footer_logo" align="left">
-	      <img alt="image_logo" src="./img/cp_logo_1.jpg" onclick="window.location.href='./index.html';" />
-	    </div>
-	
-	    <div id="about_us" align="left">
-	      <h2>About Us</h2>
-	      <p>No 17, Industri Bercham 2a, Kaw Perindustrian Bercham, 31400 Bercham Ipoh Perak</p>
-	   </div>
-	  </div>
-    
-	  <div id="subscribe" align="left">
-	    <p>Get our newsletter :</p>
-	    <input id="userEmail" type="email" />
-		<button id="subscribe_button" onclick="subscribe()">Subscribe</button>
-		<br/>
-		<div id="userNotify" align="center"></div>
-		<span><img id="whatapps_icon" alt="whatapps_icon" src="./img/whatsapp_logo.png" /></span>
-		<div id="contactDialog" title="WhatApps" style="display: none;">
-			WhatApps Contact :
-			<ol>
-				<li>Khuen : (+60) 19 - 555 5538</li>
-				<li>Loon : (+60) 18 - 383 6389</li>
-			</ol>
+		<div id="company_info" align="left">
+		  <div id="footer_logo" align="left">
+			<img alt="image_logo" src="./img/cp_logo_1.jpg" onclick="window.location.reload();" />
+		  </div>
+	  
+		  <div id="about_us" align="left">
+			  <h2>About Us</h2>
+			  <p>No 17, Industri Bercham 2a, <br />Kaw Perindustrian Bercham, <br />31400 Bercham Ipoh Perak</p>
+  
+			  <h2>Contact Us</h2>
+			  <ol>
+				  <li>(+60) 19 - 555 5538</li>
+				  <li>(+60) 18 - 383 6389</li>
+			  </ol>
+		 </div>
 		</div>
-	  </div>
-    </footer>
+	  
+	  
+		<div id="media_connections" align="left">
+			<h2>Media Connections: </h2>
+			<span><a href="https://wa.me/60195555538" target="_blank"><img id="whatapps_icon" alt="whatapps_icon" src="./img/whatsapp_logo.png" /></a></span>
+		</div>
+	  </footer>
 
 	<!-- JavaScript for the item content -->
 	<script src="./js/productPage_script.js"></script>
-
-	<!--Footer media button effect function JavaScript-->
-	<script src="./js/footer_media_button.js"></script>
 	
   </body>
 </html>
