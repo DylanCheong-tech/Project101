@@ -13,7 +13,7 @@
 			"black" : "#13190B", "brown" : "#DE641B", "cotta" : "#E28027", "white" : "#FFFFFF", "dark_brown" : "#8A6741"
 		} , 
 		
-		"details" : "Material: PLASTIC<br ><br >Size selection: <br >CP-470: L 47cm x W 17cm x H 16cm<br ><br >Whats' More:<ul><li>Modern design</li><li>Durable</li><li>Wide range of application</li><li>Conserve soil and space</li><li>Reusable</li><li>Enhance the beauty of your space with varieties of greeneries</li><li>Suitable for vegetables, plants, flowers, succulent, cactus, herbs</li><li>Utilize your space with this beautiful Planter Box at indoor or outdoor</li></ul>"
+		"details" : "Material: PLASTIC<br ><br >Size details:<ul>L 47cm x W 17cm x H 16</ul><br ><br >Whats' More:<ul><li>Modern design</li><li>Durable</li><li>Wide range of application</li><li>Conserve soil and space</li><li>Reusable</li><li>Enhance the beauty of your space with varieties of greeneries</li><li>Suitable for vegetables, plants, flowers, succulent, cactus, herbs</li><li>Utilize your space with this beautiful Planter Box at indoor or outdoor</li></ul>"
 		},
 	
 	"CP-670" : {
@@ -30,7 +30,7 @@
 			"black" : "#13190B", "brown" : "#DE641B", "cotta" : "#E28027", "white" : "#FFFFFF", "dark_brown" : "#8A6741"
 		} , 
 		
-		"details" : "Material: PLASTIC<br ><br >Size selection: <br >CP-670: L 67cm x W 21cm x H 19 cm<br ><br >Whats' More:<ul><li>Modern design</li><li>Durable</li><li>Wide range of application</li><li>Conserve soil and space</li><li>Reusable</li><li>Enhance the beauty of your space with varieties of greeneries</li><li>Suitable for vegetables, plants, flowers, succulent, cactus, herbs</li><li>Utilize your space with this beautiful Planter Box at indoor or outdoor</li></ul>"
+		"details" : "Material: PLASTIC<br ><br >Size details:<ul>L 67cm x W 21cm x H 19 cm</ul><br ><br >Whats' More:<ul><li>Modern design</li><li>Durable</li><li>Wide range of application</li><li>Conserve soil and space</li><li>Reusable</li><li>Enhance the beauty of your space with varieties of greeneries</li><li>Suitable for vegetables, plants, flowers, succulent, cactus, herbs</li><li>Utilize your space with this beautiful Planter Box at indoor or outdoor</li></ul>"
 		},
 	
 	"CP-120" : {
@@ -47,7 +47,7 @@
 			"black" : "#13190B", "brown" : "#DE641B", "cotta" : "#E28027", "white" : "#FFFFFF", "dark_brown" : "#8A6741"
 		} , 
 		
-		"details" : "Material: PP RESIN<br ><br >Size details: <br >Outside diameter: 12.3cm<br >Inside diameter: 11.3cm<br >Height: 10.2cm<br >Lower diameter: 8cm<br ><br >Whats' More:<ul><li>Suitable for all kind of plants</li><li>Good water and air circulation for root's rotting prevention</li><li>Modest and decorative</li></ul>Product Bundle:<ul><li>CP-01 (Alocasia Saucer S)</li><li>CP-448 (Arthur Pot Hanger)</li></ul>"
+		"details" : "Material: PP RESIN<br ><br >Size details:<ul><li>Outside diameter: 12.3cm</li><li>Inside diameter: 11.3cm</li><li>Height: 10.2cm</li><li>Lower diameter: 8cm</li></ul><br ><br >Whats' More:<ul><li>Suitable for all kind of plants</li><li>Good water and air circulation for root's rotting prevention</li><li>Modest and decorative</li></ul>Product Bundle:<ul><li>CP-01 (Alocasia Saucer S)</li><li>CP-448 (Arthur Pot Hanger)</li></ul>"
 		},
 	
 	"CP-220" : {
@@ -64,7 +64,7 @@
 			"black" : "#13190B", "brown" : "#DE641B", "cotta" : "#E28027", "white" : "#FFFFFF", "dark_brown" : "#8A6741"
 			} , 
 		
-		"details" : "Material: PP RESIN<br ><br >Size Details:<br >Outside Diameter: 21 CM<br >Inside Diameter: 18 CM<br >Height: 13CM<br >Lower Diameter: 13CM<br ><br >Whats' More:<ul><li>Suitable for all kind of plants</li><li>Good water and air circulation for root's rotting prevention</li><li>Modest and decorative</li></ul>Product Bundle:<ul><li>CP-157 (Calathea Saucer S)</li><li>C_0448 (Arthur Pot Hanger)</li></ul>"
+		"details" : "Material: PP RESIN<br ><br >Size details:<ul><li>Outside Diameter: 21 CM</li><li>Inside Diameter: 18 CM</li><li>Height: 13CM</li><li>Lower Diameter: 13CM</li></ul><br ><br >Whats' More:<ul><li>Suitable for all kind of plants</li><li>Good water and air circulation for root's rotting prevention</li><li>Modest and decorative</li></ul>Product Bundle:<ul><li>CP-157 (Calathea Saucer S)</li><li>C_0448 (Arthur Pot Hanger)</li></ul>"
 		},
 	
 	"CP-3535" : {
@@ -78,7 +78,7 @@
 			"brown" : "#DE641B", "white" : "#FFFFFF"
 		} , 
 		
-		"details" : "Material: PP RESIN<br ><br >Size: D 26cm x W 26cm x H 18cm<br ><br >Whats' More:<ul><li>Comes with or without base holes options</li><li>Durable</li><li>Modern design</li><li>Suitable for growing aquatic plants</li></ul>"
+		"details" : "Material: PP RESIN<br ><br >Size details:<ul>D 26cm x W 26cm x H 18cm</ul><br ><br >Whats' More:<ul><li>Comes with or without base holes options</li><li>Durable</li><li>Modern design</li><li>Suitable for growing aquatic plants</li></ul>"
 		},
 	
 	"NP-120" : {
@@ -100,7 +100,7 @@
 			"white" : "#FFFFFF", "black" : "#13190B", "brown" : "#DE641B", "cotta" : "#E28027", "dark_brown" : "#8A6741", "blue": "#0BA6D6", "green" : "#ABDD2A", "pink" : "#FE9FBA", "purple" : "#C19BCA", "yellow" : "#DFC500"
 		} , 
 		
-		"details" : "Material: PP RESIN<br ><br >Size details:<br >Outside diameter: 12.5cm<br >Inside diameter: 11.5cm<br >Height: 10cm<br >Lower diameter: 8.5cm<br ><br >Whats' More:<ul><li>Suitable for all kind of plants</li><li>Good water and air circulation for root's rotting prevention</li><li>Modest and decorative</li></ul>Product Bundle:<ul><li>CP-01 (Alocasia Saucer S)</li><li>CP-448 (Arthur Pot Hanger)</li></ul>"
+		"details" : "Material: PP RESIN<br ><br >Size details:<ul><li>Outside diameter: 12.5cm</li><li>Inside diameter: 11.5cm</li><li>Height: 10cm</li><li>Lower diameter: 8.5cm</li></ul><br ><br >Whats' More:<ul><li>Suitable for all kind of plants</li><li>Good water and air circulation for root's rotting prevention</li><li>Modest and decorative</li></ul>Product Bundle:<ul><li>CP-01 (Alocasia Saucer S)</li><li>CP-448 (Arthur Pot Hanger)</li></ul>"
 		},
 	
 	"NP-150" : {
@@ -122,7 +122,7 @@
 			"white" : "#FFFFFF", "black" : "#13190B", "brown" : "#DE641B", "cotta" : "#E28027", "dark_brown" : "#8A6741", "blue": "#0BA6D6", "green" : "#ABDD2A", "pink" : "#FE9FBA", "purple" : "#C19BCA", "yellow" : "#DFC500"
 		} , 
 		
-		"details" : "Material: PP RESIN <br ><br >Size details:<br >Outside diameter: 14.7cm<br >Inside diameter: 13.3cm<br >Height: 12cm<br >Lower diameter: 10cm<br ><br >Whats' More:<ul><li>Suitable for all kind of plants</li><li>Good water and air circulation for root's rotting prevention</li><li>Modest and decorative</li></ul>Product Bundle:<ul><li>CP-02 (Alocasia Saucer M)</li><li>CP-448 (Arthur Pot Hanger)</li></ul>"
+		"details" : "Material: PP RESIN <br ><br >Size details:<ul><li>Outside diameter: 14.7cm</li><li>Inside diameter: 13.3cm</li><li>Height: 12cm</li><li>Lower diameter: 10cm</li></ul><br ><br >Whats' More:<ul><li>Suitable for all kind of plants</li><li>Good water and air circulation for root's rotting prevention</li><li>Modest and decorative</li></ul>Product Bundle:<ul><li>CP-02 (Alocasia Saucer M)</li><li>CP-448 (Arthur Pot Hanger)</li></ul>"
 		},
 	
 	"NP-170" : {
@@ -144,7 +144,7 @@
 			"white" : "#FFFFFF", "black" : "#13190B", "brown" : "#DE641B", "cotta" : "#E28027", "dark_brown" : "#8A6741", "blue": "#0BA6D6", "green" : "#ABDD2A", "pink" : "#FE9FBA", "purple" : "#C19BCA", "yellow" : "#DFC500"
 		} , 
 		
-		"details" : "Material: PP RESIN <br ><br >Size details: <br >Outside diameter: 17cm<br >Inside diameter: 15.5cm<br >Height: 14cm<br >Lower diameter: 13cm<br ><br >Whats' More:<ul><li>Suitable for all kind of plants</li><li>Good water and air circulation for root's rotting prevention</li><li>Modest and decorative</li></ul>Product Bundle:<ul><li>CP-157 (Calathea Saucer S)</li><li>C_0448 (Arthur Pot Hanger)</li></ul>"
+		"details" : "Material: PP RESIN <br ><br >Size details:<ul><li>Outside diameter: 17cm</li><li>Inside diameter: 15.5cm</li><li>Height: 14cm</li><li>Lower diameter: 13cm</li></ul><br ><br >Whats' More:<ul><li>Suitable for all kind of plants</li><li>Good water and air circulation for root's rotting prevention</li><li>Modest and decorative</li></ul>Product Bundle:<ul><li>CP-157 (Calathea Saucer S)</li><li>C_0448 (Arthur Pot Hanger)</li></ul>"
 		},
 		
 	"NP-190" : {
@@ -161,7 +161,7 @@
 			"black" : "#13190B", "brown" : "#DE641B", "cotta" : "#E28027", "white" : "#FFFFFF", "dark_brown" : "#8A6741"
 			} , 
 		
-		"details" : "Material: PP RESIN <br ><br >Size details: <br >Outside diameter: 21cm<br >Inside diameter: 18cm<br >Height: 13cm<br >Lower diameter: 13cm<br ><br >Whats' More:<ul><li>Suitable for all kind of plants</li><li>Good water and air circulation for root's rotting prevention</li><li>Modest and decorative</li></ul>Product Bundle:<ul><li>CP-157 (Calathea Saucer S)</li><li>C_0448 (Arthur Pot Hanger)</li></ul>"
+		"details" : "Material: PP RESIN <br ><br >Size details:<ul><li>Outside diameter: 21cm</li><li>Inside diameter: 18cm</li><li>Height: 13cm</li><li>Lower diameter: 13cm</li></ul><br ><br >Whats' More:<ul><li>Suitable for all kind of plants</li><li>Good water and air circulation for root's rotting prevention</li><li>Modest and decorative</li></ul>Product Bundle:<ul><li>CP-157 (Calathea Saucer S)</li><li>C_0448 (Arthur Pot Hanger)</li></ul>"
 		},
 	
 	"CP-23" : {
@@ -178,7 +178,7 @@
 			"black" : "#13190B", "brown" : "#DE641B", "cotta" : "#E28027", "white" : "#FFFFFF", "dark_brown" : "#8A6741"
 		} , 
 		
-		"details" : "Material: PLASTIC<br ><br >Size: L 7.5cm x W 3.5cm x H 3.5cm {3 pcs}<br >Comes in set of 3 Pot Feets<br ><br >Whats' More:<ul><li>Material is hard and solid</li><li>Use as Pot's footing</li></ul>"
+		"details" : "Material: PLASTIC<br ><br >Size details:<ul>L 7.5cm x W 3.5cm x H 3.5cm {3 pcs}</ul><br >Comes in set of 3 Pot Feets<br ><br >Whats' More:<ul><li>Material is hard and solid</li><li>Use as Pot's footing</li></ul>"
 		},
 	
 	"CP-28" : {
@@ -195,7 +195,7 @@
 			"black" : "#13190B", "brown" : "#DE641B", "cotta" : "#E28027", "white" : "#FFFFFF", "dark_brown" : "#8A6741"
 		} , 
 		
-		"details" : "Material: PLASTIC<br ><br >Size: L 9cm x W 5cm x H 4.5cm {3pcs}<br >Comes in set of 3 Pot Feets<br ><br >Whats' More:<ul><li>Material is hard and solid</li><li>Use as Pot's footing</li></ul>"
+		"details" : "Material: PLASTIC<br ><br >Size details:<ul>L 9cm x W 5cm x H 4.5cm {3pcs}</ul><br >Comes in set of 3 Pot Feets<br ><br >Whats' More:<ul><li>Material is hard and solid</li><li>Use as Pot's footing</li></ul>"
 		},
 	
 	"CP-448" : {
@@ -212,7 +212,7 @@
 			"black" : "#13190B", "brown" : "#DE641B", "cotta" : "#E28027", "white" : "#FFFFFF", "dark_brown" : "#8A6741"
 		} , 
 		 
-		"details" : "Material: PLASTIC<br ><br >Size: <br >L: 4 cm<br >W: 1 cm<br >H: 47 cm<br ><br >Product Bundle:<ul><li>CP-120 (Emily Pot)</li><li>CP-220 (Diana Pot)</li><li>NP-120 (Benedict Pot)</li><li>NP-150 (George Pot)</li><li>NP-170 (Alexander Pot)</li><li>NP-190 (Harry Pot)</li></ul>"
+		"details" : "Material: PLASTIC<br ><br >Size details:<ul>L: 4 cm<br >W: 1 cm<br >H: 47 cm</ul><br ><br >Product Bundle:<ul><li>CP-120 (Emily Pot)</li><li>CP-220 (Diana Pot)</li><li>NP-120 (Benedict Pot)</li><li>NP-150 (George Pot)</li><li>NP-170 (Alexander Pot)</li><li>NP-190 (Harry Pot)</li></ul>"
 		},
 	
 	"CP-01" : {
@@ -229,7 +229,7 @@
 			"black" : "#13190B", "brown" : "#DE641B", "cotta" : "#E28027", "white" : "#FFFFFF", "dark_brown" : "#8A6741"
 		} , 
 		
-		"details" : "Material: PLASTIC <br ><br >Size :<br >10cm<br ><br >Product Bundle:<ul><li>CP-120 (Emily Pot)</li></li>NP-120 (Benedict Pot)</li></ul>"
+		"details" : "Material: PLASTIC <br ><br >Size details:<ul>10cm</ul><br >Product Bundle:<ul><li>CP-120 (Emily Pot)</li></li>NP-120 (Benedict Pot)</li></ul>"
 		},
 	
 	"CP-02" : {
@@ -246,7 +246,7 @@
 			"black" : "#13190B", "brown" : "#DE641B", "cotta" : "#E28027", "white" : "#FFFFFF", "dark_brown" : "#8A6741"
 		} , 
 		
-		"details" : "Material: PLASTIC <br ><br >Size :<br >14cm<br ><br >Product Bundle:<ul><li>CP-150 </li></li>NP-150 (George Pot)</li></ul>"
+		"details" : "Material: PLASTIC <br ><br >Size details:<ul>14cm</ul><br >Product Bundle:<ul><li>CP-150 </li></li>NP-150 (George Pot)</li></ul>"
 		},
 	
 	"CP-157" : {
@@ -263,7 +263,7 @@
 			"black" : "#13190B", "brown" : "#DE641B", "cotta" : "#E28027", "white" : "#FFFFFF", "dark_brown" : "#8A6741"
 		} , 
 		
-		"details" : "Material: PLASTIC <br ><br >Size :<br >15cm<br ><br >Product Bundle:<ul><li>CP-220 (Diana Pot)</li></li>NP-170 (Alexander Pot)</li></ul>"
+		"details" : "Material: PLASTIC <br ><br >Size details:<ul>15cm</ul><br >Product Bundle:<ul><li>CP-220 (Diana Pot)</li></li>NP-170 (Alexander Pot)</li></ul>"
 		},
 	
 	"CP-200" : {
@@ -280,7 +280,7 @@
 			"black" : "#13190B", "brown" : "#DE641B", "cotta" : "#E28027", "white" : "#FFFFFF", "dark_brown" : "#8A6741"
 		} , 
 		
-		"details" : "Material: PLASTIC <br ><br >Size :<br >20cm<br ><br >Product Bundle:<br ><br >None"
+		"details" : "Material: PLASTIC <br ><br >Size details:<ul>20cm</ul><br >Product Bundle:<br ><br >None"
 		},
 	
 	"CP-223" : {
@@ -297,7 +297,7 @@
 			"black" : "#13190B", "brown" : "#DE641B", "cotta" : "#E28027", "white" : "#FFFFFF", "dark_brown" : "#8A6741"
 		} , 
 		
-		"details" : "Material: PLASTIC <br ><br >Size :<br >23cm<br ><br >Product Bundle:<br ><br >None"
+		"details" : "Material: PLASTIC <br ><br >Size details:<ul>23cm</ul><br >Product Bundle:<br ><br >None"
 		},
 	
 	"CP-295" : {
@@ -314,6 +314,6 @@
 			"black" : "#13190B", "brown" : "#DE641B", "cotta" : "#E28027", "white" : "#FFFFFF", "dark_brown" : "#8A6741"
 		} , 
 		
-		"details" : "Material: PLASTIC <br ><br >Size :<br >29cm<br ><br >Product Bundle:<br ><br >None"
+		"details" : "Material: PLASTIC <br ><br >Size details:<ul>29cm</ul><br >Product Bundle:<br ><br >None"
 		}	
 }
