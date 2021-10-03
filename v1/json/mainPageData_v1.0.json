@@ -1,0 +1,86 @@
+{
+	"planterBox": [
+		{"img" : "./img/Planter_Box/CP470/WHITE_01.jpg" , "name": "Monstera Planter Box",
+		"code": "CP-470", "stock": "Available", 
+			"details" : "<span>CP-470</span><br ><br >SIZE DETAILS:<ul><li>L 47CM x W 17CM x H 16CM</li></ul><br ><br >WHAT'S MORE:<ul><li>MODERN DESIGN</li><li>DURABLE</li><li>WIDE RANGE OF APPLICATION</li><li>CONSERVE SPACE AND SOIL</li><li>REUSABLE</li></ul>"},
+		
+		{"img" : "./img/Planter_Box/CP670/WHITE_01.jpg" , "name": "Pathos Planter Box",
+		"code": "CP-670", "stock": "Available",
+			"details" : "<span>CP-670</span><br ><br >SIZE DETAILS:<ul><li>L 67CM x W 21CM x H 19CM</li></ul><br ><br >WHAT'S MORE:<ul><li>MODERN DESIGN</li><li>DURABLE</li><li>WIDE RANGE OF APPLICATION</li><li>CONSERVE SPACE AND SOIL</li><li>REUSABLE</li></ul>"}
+	],
+	
+	"pot": [
+		{"img" : "./img/Pot/CP120/BLACK_01.jpg" , "name": "Emily Pot",
+		"code": "CP-120", "stock": "Available", 
+			"details" : "<span>CP-120</span> <br ><br >SIZE DETAILS:<ul><li>OUTSIDE DIAMETER: 12.3CM</li><li>INSIDE DIAMETER: 11.3CM</li><li>HEIGHT: 10.2CM</li><li>LOWER DIAMETER: 8CM</li></ul>PRODUCT BUNDLE:<ul><li>CP-01 (ALOCASIA SAUCER S)</li><li>CP-448 (ARTHUR POT HANGER)</li></ul>"},
+		
+		{"img" : "./img/Pot/CP220/WHITE_01.jpg" , "name": "Diana Pot",
+		"code": "CP-220", "stock": "Available",
+			"details" : "<span>CP-220</span><br ><br >SIZE DETAILS:<ul><li>OUTSIDE DIAMETER: 21CM</li><li>INSIDE DIAMETER: 18CM</li><li>HEIGHT: 13CM</li><li>LOWER DIAMETER: 13CM</li></ul>PRODUCT BUNDLE:<ul><li>CP-157 (CALATHEA SAUCER S)</li><li>CP-448 (ARTHUR POT HANGER)</li></ul>"},
+		
+		
+		{"img" : "./img/Pot/CP3535/WHITE_01.jpg" , "name": "Elizabeth Pot",
+		"code": "CP-3535", "stock": "Available",
+			"details" : "<span>CP-3535</span><br ><br >SIZE DETAILS:<ul><li>D 26CM X W 26CM X H 18CM</li></ul><br ><br >WHAT'S MORE:<ul><li>COMES WITH OR WITHOUT BASE HOLES OPTIONS</li><li>DURABLE</li><li>MODERN DESIGN</li><li>SUITABLE FOR GROWING AQUATIC PLANTS</li></ul>"},
+		
+		{"img" : "./img/Pot/NP120/WHITE_01.jpg" ,"name": "Benedict Pot",
+		"code": "NP-120", "stock": "Available",
+			"details" : "<span>NP-120</span><br ><br >SIZE DETAILS:<ul><li>OUTSIDE DIAMETER: 12.5CM</li><li>INSIDE DIAMETER: 11.5CM</li><li>HEIGHT: 10CM</li><li>LOWER DIAMETER: 8.5CM</li></ul>PRODUCT BUNDLE:<ul><li>CP-01 (ALOCASIA SAUCER S)</li><li>CP-448 (ARTHUR POT HANGER)</li></ul>"},
+		
+		{"img" : "./img/Pot/NP150/WHITE_01.jpg" , "name": "George Pot",
+		"code": "NP-150", "stock": "Available",
+			"details" : "<span>NP-150</span><br ><br >SIZE DETAILS:<ul><li>OUTSIDE DIAMETER: 14.7CM</li><li>INSIDE DIAMETER: 13.3CM</li><li>HEIGHT: 12CM</li><li>LOWER DIAMETER: 10CM</li></ul>PRODUCT BUNDLE:<ul><li>CP-02 (ALOCASIA SAUCER M)</li><li>CP-448 (ARTHUR POT HANGER)</li></ul>"},
+		
+		{"img" : "./img/Pot/NP170/WHITE_01.jpg" , "name": "Alexander Pot",
+		"code": "NP-170", "stock": "Available",
+			"details" : "<span>NP-170</span><br ><br >SIZE DETAILS:<ul><li>OUTSIDE DIAMETER: 17CM</li><li>INSIDE DIAMETER: 15.5CM</li><li>HEIGHT: 14CM</li><li>LOWER DIAMETER: 13CM</li></ul>PRODUCT BUNDLE:<ul><li>CP-157 (CALATHEA SAUCER S)</li></ul>"},
+		
+		{"img" : "./img/Pot/NP190/WHITE_01.jpg" , "name": "Harry Pot",
+		"code": "NP-190", "stock": "Available",
+			"details" : "<span>NP-190</span><br ><br >SIZE DETAILS:<ul><li>OUTSIDE DIAMETER: 21CM</li><li>INSIDE DIAMETER: 18CM</li><li>HEIGHT: 13CM</li><li>LOWER DIAMETER: 13CM</li></ul>PRODUCT BUNDLE:<ul><li>CP-157 (CALATHEA SAUCER S)</li><li>CP-448 (ARTHUR POT HANGER)</li></ul>"}
+			
+	],
+	
+	"potFeet": [
+		{"img" : "./img/Pot_Feet/CP23/BLACK_01.jpg" ,"name": "Dorothy Pot Feet",
+		"code": "CP-23", "stock": "Available",
+			"details" : "<span>CP-23</span><br ><br >SIZE DETAILS:<ul><li>L 7.5CM X W 3.5CM X H 3.5CM</li><li>3 PCS</li></ul>WHAT'S MORE:<ul><li>COMES IN SET OF 3 POT FEETS</li><li>MATERIAL IS HARD AND SOLID</li><li>USE AS POT'S FOOTING</li></ul>"},
+		
+		{"img" : "./img/Pot_Feet/CP28/BLACK_01.jpg" , "name": "Edward Pot Feet",
+		"code": "CP-28", "stock": "Available",
+			"details" : "<span>CP-28</span><br ><br >SIZE DETAILS:<ul><li>L 9CM X W 5CM X H 4.5CM</li><li>3 PCS</li></ul>WHAT'S MORE:<ul><li>COMES IN SET OF 3 POT FEETS</li><li>MATERIAL IS HARD AND SOLID</li><li>USE AS POT'S FOOTING</li></ul>"}
+	],
+	
+	"potHanger": [
+		{"img" : "./img/Pot_Hanger/CP448/WHITE_01.jpg" , "name": "Arthur Pot Hanger",
+		"code": "CP-448", "stock": "Available",
+			"details" : "<span>CP-448</span><br ><br >SIZE DETAILS:<ul><li>L: 4CM</li><li>W: 1 CM</li><li>H: 47 CM</li></ul>PRODUCT BUNDLE:<ul><li>CP-120 (EMILY POT)</li><li>CP-220 (DIANA POT)</li><li>NP-120 (BENEDICT POT)</li><li>NP-150 (GEORGE POT)</li><li>NP-170 (ALEXANDER POT)</li><li>NP-190 (HARRY POT)</li></ul>"}
+	],
+	
+	"saucer": [
+		{"img" : "./img/Saucer/CP01/WHITE_01.jpg" , "name": "Alocasia Saucer S",
+		"code": "CP-01", "stock": "Available",
+			"details" : "<span>CP-01</span><br ><br >SIZE DETAILS:<ul><li>INSIDE DIAMETER 7CM</li><li>OUTSIDE DIAMETER 10CM</li></ul>PRODUCT BUNDLE:<ul><li>CP-120 (EMILY POT)</li><li>NP-120 (BENEDICT POT)</li></ul>"},
+		
+		{"img" : "./img/Saucer/CP02/WHITE_01.jpg" ,"name": "Alocasia Saucer M",
+		"code": "CP-02", "stock": "Available",
+			"details" : "<span>CP-02</span><br ><br >SIZE DETAILS:<ul><li>INSIDE DIAMETER 9CM</li><li>OUTSIDE DIAMETER 14CM</li></ul>PRODUCT BUNDLE:<ul><li>CP-150</li><li>NP-150 (GEORGE POT)</li></ul>"},
+		
+		{"img" : "./img/Saucer/CP157/WHITE_01.jpg" , "name": "Calathea Saucer S",
+		"code": "CP-157", "stock": "Available",
+			"details" : "<span>CP-157</span><br ><br >SIZE DETAILS:<ul><li>INSIDE DIAMETER 11CM</li><li>OUTSIDE DIAMETER 15CM</li></ul>PRODUCT BUNDLE:<ul><li>CP-220 (DIANA POT)</li><li>NP-170 (ALEXANDER POT)</li></ul>"},
+		
+		{"img" : "./img/Saucer/CP200/WHITE_01.jpg" , "name": "Calather Saucer M",
+		"code": "CP-200", "stock": "Available",
+			"details" : "<span>CP-200</span><br ><br >SIZE DETAILS:<ul><li>INSIDE DIAMETER 15CM</li><li>OUTSIDE DIAMETER 20CM</li></ul>PRODUCT BUNDLE:<br ><br >NONE"},
+		
+		{"img" : "./img/Saucer/CP223/WHITE_01.jpg" , "name": "Calathea Saucer L",
+		"code": "CP-223", "stock": "Available" ,
+			"details" : "<span>CP-223</span><br ><br >SIZE DETAILS:<ul><li>INSIDE DIAMETER 17CM</li><li>OUTSIDE DIAMETER 23CM</li></ul>PRODUCT BUNDLE:<br ><br >NONE"},
+		
+		{"img" : "./img/Saucer/CP295/WHITE_01.jpg" ,"name": "Calathea Saucer XL",
+		"code": "CP-295", "stock": "Available",
+			"details" : "<span>CP-295</span><br ><br >SIZE DETAILS:<ul><li>INSIDE DIAMETER 22CM</li><li>OUTSIDE DIAMETER 29CM</li></ul>PRODUCT BUNDLE:<br ><br >NONE"}
+	]
+	
+}
