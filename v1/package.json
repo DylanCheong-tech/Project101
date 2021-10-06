@@ -1,0 +1,31 @@
+{
+    "name" : "cherry-pot-marketing",
+    "description" : "Project101, Tech200",
+    "version" : "0.1.0",
+
+    "dependencies" : {
+        "express" : "4.x"
+    },
+
+    "main" : "server.js",
+    
+    "scripts": {
+        "start": "node server.js",
+        "test": "node server.js"
+    },
+
+    "engines" : {
+        "node" : "14.x"
+    },
+
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/DylanCheong-tech/cherrypot-heroku"
+      },
+
+    "keywords": [
+        "node",
+        "heroku",
+        "express"
+    ]
+}
