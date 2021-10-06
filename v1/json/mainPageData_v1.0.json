@@ -10,7 +10,7 @@
 	],
 	
 	"pot": [
-		{"img" : "./img/Pot/CP120/BLACK_01.jpg" , "name": "Emily Pot",
+		{"img" : "./img/Pot/CP120/WHITE_01.jpg" , "name": "Emily Pot",
 		"code": "CP-120", "stock": "Available", 
 			"details" : "<span>CP-120</span> <br ><br >SIZE DETAILS:<ul><li>OUTSIDE DIAMETER: 12.3CM</li><li>INSIDE DIAMETER: 11.3CM</li><li>HEIGHT: 10.2CM</li><li>LOWER DIAMETER: 8CM</li></ul>PRODUCT BUNDLE:<ul><li>CP-01 (ALOCASIA SAUCER S)</li><li>CP-448 (ARTHUR POT HANGER)</li></ul>"},
 		
