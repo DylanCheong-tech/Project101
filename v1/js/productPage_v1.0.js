@@ -9,16 +9,11 @@ var request = $.ajax({
 	}
 });
 
-console.log(request);
-
 var productData = request.responseJSON;
-
-console.log(productData);
 		
 // get the product name from the previous page 
 // window.localStorage
 var productCode = window.localStorage.getItem("product_code");
-console.log (productCode);
 		
 var pageTitle = document.getElementById("title");
 pageTitle.innerHTML = productData[productCode]["name"];
@@ -28,13 +23,10 @@ pageTitle.innerHTML = productData[productCode]["name"];
 // header title
 document.getElementById("product_name").innerHTML = productData[productCode]["name"];
 document.getElementById("product_code").innerHTML = productCode;
-console.log(productData[productCode][name]);
 
 // color options 
 var colorDiv = document.getElementById("colors");
 var counter = 0;
-
-console.log(productData[productCode]);
 
 for (color in productData[productCode]["color"])
 {
@@ -126,26 +118,4 @@ function changePic (element)
 	currentSelectedPic.style.border = "solid #E9F5DB 3px";
 	currentSelectedPic = element;
 	currentSelectedPic.style.border = "solid #226D46 3px";
-}
-console.log("here");
-
-
-//////////////
-//////////	  
-var globalEmailStorage = [];
-var storageIndex = 0;
-
-function subscribe ()
-{
-	var emailAddress = document.getElementById("userEmail").value;
-	  
-	// if empty dont add it into the storage
-	if (emailAddress !== "")
-		{
-		globalEmailStorage[storageIndex++] = emailAddress;
-		var userReply = document.getElementById("userNotify");
-		userReply.style.display = "block";
-		userReply.innerHTML = "Subscribe Successfully !";
-		}
-	console.log(globalEmailStorage);
 }

@@ -15,8 +15,6 @@ var requestData = $.ajax({
 		console.log("Failed load in data" , error);	
 }).responseJSON;
 
-console.log(requestData);
-
 // functions ::
 function displayItems (div_frame, pageNumber, info_src)
 {			
@@ -133,7 +131,6 @@ function changePage (currentPage)
 	});
 	
 	$(id).fadeIn(500);
-	console.log("stopped here 2");
 }
 
 //displays items when the page is onLoaded
@@ -142,31 +139,3 @@ displayItems(div_frames["pot"], 0, requestData["pot"]);
 displayItems(div_frames["potFeet"], 0, requestData["potFeet"]);
 displayItems(div_frames["potHanger"], 0, requestData["potHanger"]);
 displayItems(div_frames["saucer"], 0, requestData["saucer"]);	
-
-
-/*
-var span1 = document.createElement("span");
-span1.innerHTML = "<br ><br ><br ><br ><br ><br ><br ><br ><br ><br ><br >Comming Soon !";
-span1.style.backgroundColor = "transparent";
-span1.style.textAlign =  "center";
-span1.style.border = "dotted 3px grey";
-
-pot_feet_frame.appendChild(span1);
-*/
-
-var globalEmailStorage = [];
-var storageIndex = 0;
-function subscribe ()
-{
-  var emailAddress = document.getElementById("userEmail").value;
-  
-  // if empty dont add it into the storage
-  if (emailAddress !== "")
-  {
-    globalEmailStorage[storageIndex++] = emailAddress;
-	var userReply = document.getElementById("userNotify");
-	userReply.style.display = "block";
-	userReply.innerHTML = "Subscribe Successfully !";
-  }
-  console.log(globalEmailStorage);
-}
