@@ -18,6 +18,9 @@
 		"code": "CP-220", "stock": "Available",
 			"details" : "<span>CP-220</span><br ><br >SIZE DETAILS:<ul><li>OUTSIDE DIAMETER: 21CM</li><li>INSIDE DIAMETER: 18CM</li><li>HEIGHT: 13CM</li><li>LOWER DIAMETER: 13CM</li></ul>PRODUCT BUNDLE:<ul><li>CP-157 (CALATHEA SAUCER S)</li><li>CP-448 (ARTHUR POT HANGER)</li></ul>"},
 		
+		{"img" : "./img/Pot/CP600/WHITE_01.jpg" , "name": "Money Plant Pot",
+			"code": "CP-600", "stock": "Available",
+			"details" : "<span>CP-600</span><br ><br >SIZE DETAILS:<ul><li>OUTSIDE DIAMETER: 21CM</li><li>INSIDE DIAMETER: 18CM</li><li>HEIGHT: 13CM</li><li>LOWER DIAMETER: 13CM</li></ul>PRODUCT BUNDLE:<ul><li>CP-157 (CALATHEA SAUCER S)</li><li>CP-448 (ARTHUR POT HANGER)</li></ul>"},	
 		
 		{"img" : "./img/Pot/CP3535/WHITE_01.jpg" , "name": "Elizabeth Pot",
 		"code": "CP-3535", "stock": "Available",

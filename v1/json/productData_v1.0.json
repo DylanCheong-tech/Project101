@@ -66,6 +66,23 @@
 		
 		"details" : "Material: PP RESIN<br ><br >Size details:<ul><li>Outside Diameter: 21 CM</li><li>Inside Diameter: 18 CM</li><li>Height: 13CM</li><li>Lower Diameter: 13CM</li></ul><br ><br >Whats' More:<ul><li>Suitable for all kind of plants</li><li>Good water and air circulation for root's rotting prevention</li><li>Modest and decorative</li></ul>Product Bundle:<ul><li>CP-157 (Calathea Saucer S)</li><li>CP-448 (Arthur Pot Hanger)</li></ul>"
 		},
+
+	"CP-600" : {
+			"name" : "Money Plant Pot",
+			"path" : "./img/Pot/CP600/",
+			"img" : {
+				"black" : ["BLACK_01.jpg", "BLACK_02.jpg"], 
+				"brown" : ["BROWN_01.jpg", "BROWN_02.jpg"],
+				"cotta" : ["COTTA_01.jpg", "COTTA_02.jpg"],
+				"white" : ["WHITE_01.jpg", "WHITE_02.jpg"],
+				"dark_brown" : ["DARK_BROWN_01.jpg", "DARK_BROWN_02.jpg"]
+				} , 
+			"color" : {
+				"black" : "#13190B", "brown" : "#DE641B", "cotta" : "#E28027", "white" : "#FFFFFF", "dark_brown" : "#8A6741"
+			} , 
+			
+			"details" : "Material: PLASTIC<br ><br >Size details:<ul><li>L 67cm x W 21cm x H 19 cm</li></ul>Whats' More:<ul><li>Modern design</li><li>Durable</li><li>Wide range of application</li><li>Conserve soil and space</li><li>Reusable</li><li>Enhance the beauty of your space with varieties of greeneries</li><li>Suitable for vegetables, plants, flowers, succulent, cactus, herbs</li><li>Utilize your space with this beautiful Planter Box at indoor or outdoor</li></ul>"
+			},
 	
 	"CP-3535" : {
 		"name" : "Elizabeth Pot",
