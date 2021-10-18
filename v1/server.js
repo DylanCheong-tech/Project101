@@ -114,5 +114,9 @@ app.get("/img/:category/:subcategory/:with_text/:images", (req, res, next) => {
   });
 });
 
+app.get("*", (req, res) => {
+  res.redirect("/");
+})
+
 
 app.listen(PORT, () => console.log(`Listening on ${ PORT }`));
