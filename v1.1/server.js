@@ -5,10 +5,14 @@ const path = require('path');
 const PORT = process.env.PORT || 5000;
 const passport = require("passport");
 const LocalStrategy = require("passport-local").Strategy;
-const bodyParser = require('body-parser');
-// const flash = require('express-flash');
+const flash = require('express-flash');
+const exphbs  = require('express-handlebars');
 
 var app = express();
+
+app.use(flash());
+app.engine('handlebars', exphbs());
+app.set('view engine', 'handlebars');
 
 var session_configuration = {
 	secret : "User Login",
@@ -23,7 +27,6 @@ app.use(session(session_configuration));
 app.use(cookieParser('User Login'));
 app.use(passport.initialize());
 app.use(passport.session());
-// app.use(flash());
 
 // login authentication using LocalStrategy 
 var users = {
@@ -35,10 +38,10 @@ var users = {
 }};
 
 // parse application/x-www-form-urlencoded
-app.use(bodyParser.urlencoded({ extended: true }));
+app.use(express.urlencoded());
 
 // parse application/json
-app.use(bodyParser.json());
+app.use(express.json());
 
 passport.serializeUser(function (user, done) {
   if (users["id" + user.id])
@@ -155,18 +158,23 @@ app.get("/img/:category/:subcategory/:with_text/:images", (req, res, next) => {
 });
 
 app.get("/login", (req, res, next) => {
-  res.sendFile(path.join(__dirname , "/admin/login.html") , function (err) {
-    if (err){
-      res.sendStatus(404);
-      next(err);
-    }
-  });
+  var flashMsg = req.flash("error")[0];
+  if (flashMsg){
+    console.log(flashMsg);
+    res.render('loginfail' , { helpers : {
+      message : function () {return "Login Failed : " + flashMsg;}
+    } }
+    );
+  }
+  else {
+    res.render('loginfail');
+  }
 });
 
 app.post("/login" , passport.authenticate("local", {
-  successRedirect: "admin/portal.html",
-  failureRedirect: "login"
-  // successFlash: {message : "Login Successfully"}
+  successRedirect: "admin/portal",
+  failureRedirect: "login",
+  failureFlash: true
 }));
 
 function accessCheck (req, res, next){
@@ -178,11 +186,12 @@ function accessCheck (req, res, next){
   }
 }
 
-app.get("/admin/:content" , accessCheck, (req, res, next) => {
-  res.sendFile(path.join(__dirname + "/admin/" + req.params.content) , (err) => {
-    if (err) {
-      res.sendStatus(404);
-      next(err);
+app.get("/admin/portal" , accessCheck, (req, res, next) => {
+  res.render("loginsuccess" , {
+    helpers: {
+      username : function () {
+        return req.user.username;
+      }
     }
   });
 });

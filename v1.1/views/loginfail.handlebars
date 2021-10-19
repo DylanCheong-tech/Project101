@@ -1,0 +1,34 @@
+<link rel="stylesheet" type="text/css" href="../css/login.css" />
+    <div id="header">
+        <div id="header">
+            <div id="logo">
+              <img alt="image_logo" src="../img/cp_logo.png" />
+            </div>
+            
+            <div id="menubar" align="right">
+              Admin Portal Page<br />
+              <a href="/">Home</a>
+            </div>
+          </div>
+    </div>
+
+    <div id="content">
+        <img src="../img/admin.png" alt="img_" />
+
+        <div id="login_input">
+            <h1>Log In</h1>
+            <span>Please enter the credential below: </span>
+            <form action="/login" method="POST">
+                <input type="text" placeholder="Username" name="username" />
+                <br />
+                <input type="password" placeholder="Password" name="password" />
+                <br />
+                <button name="login">Login</button>
+            </form>
+            <span>{{message}}</span>
+        </div>
+    </div>
+
+<footer id="footer">
+        
+    </footer>
