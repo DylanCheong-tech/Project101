@@ -29,12 +29,21 @@
         </div>
 
         <div id="filter_sort">
-            Filter : <input type="text" placeholder="Please enter .." />
-            Sort : <select>
-                <option selected disabled>Sort</option>
-                <option>A-Z</option>
-                <option>Z-A</option>
+            Filter : 
+            <input v-model="filterKeyword" type="text" placeholder="Please enter .." />
+            Sort : <select v-on:change="sortProducts($event)">
+                <option selected disabled>-- Select One -- </option>
+                <option value="1n" >Name : A-Z</option>
+                <option value="-1n" >Name : Z-A</option>
+                <option value="1c">Code : A-Z</option>
+                <option value="-1c">Code : Z-A</option>
             </select>
+        </div>
+
+        <div>
+            <h3 v-show="addOperation">You are in adding mode .. </h3>
+            <h3 v-show="editOperation">You are in editing mode .. </h3>
+            <h3 v-show="deleteOperation">You are in deleting mode .. </h3>
         </div>
 
         <table id="product_listing">
@@ -51,55 +60,62 @@
                 <tr v-show="addOperation">
                     <td>0</td>
                     <td>
-                        Product Code : <input type="text" /> <br />
-                        Product Name : <input type="text" /><br />
-                        Color Variations : <input type="text" />
+                        Product Code : <input type="text" v-model="newProduct.code" /> <br />
+                        <span v-show="codeExist">Existing Code</span><br />
+                        Product Name : <input type="text" v-model="newProduct.name" /><br />
+                        Color Variations : <input type="text" v-model="newProduct.colors" />
                     </td>
                     <td>
-                        Product Descriptions : <textarea placeholder="This information will display in the main page .. " rows="5" cols="50"></textarea> <br />
-                        Product Details : <textarea placeholder="This information will display in the product page .. " rows="5" cols="50"></textarea>
+                        Product Descriptions : <textarea v-model="newProduct.descriptions" placeholder="This information will display in the main page .. " rows="5" cols="50"></textarea> <br />
+                        Product Details : <textarea v-model="newProduct.details" placeholder="This information will display in the product page .. " rows="5" cols="50"></textarea>
                     </td>
                     <td>
-                        <button id="add_btn">Add</button>
+                        <button id="add_btn" v-on:click="addNewProduct()" v-bind:disabled="isEmpty">Add</button>
                     </td>
                 </tr>
 
-                <tr v-for="(product, code) in products">
-                    <td>\{{numbering}}</td>
+                <tr v-if="noListing">
+                    <td colspan="4" align="center">
+                        <h1>Sorry, No Listing ... </h1>
+                    </td>
+                </tr>
+
+                <tr v-for="(product, code) in products_arr">
+                    <td>\{{code + 1}}</td>
                     <td>
-                        <span v-if="productEditStatus[code]">
-                            Product Code : <input type="text" v-bind:value="code" />
+                        <span v-if="productEditStatus[product.data.code]">
+                            Product Code : <input type="text" v-bind:value="product.data.code" />
                         </span>
 
                         <span v-else>
-                            \{{code}}
+                            \{{product.data.code}}
                         </span>
                     </td>
                     <td align="left">
-                        <span v-if="productEditStatus[code]">
-                            Product Name : <input type="text" v-bind:value="product.name"> <br />
-                            Product Colors : <input type="text" v-bind:value="product.color"> <br />
-                            Product Details : <textarea rows="5" cols="50">\{{product.details}}</textarea>    
+                        <span v-if="productEditStatus[product.data.code]">
+                            Product Name : <input type="text" v-bind:value="product.data.name"> <br />
+                            Product Colors : <input type="text" v-bind:value="product.data.color"> <br />
+                            Product Details : <textarea rows="5" cols="50">\{{product.data.details}}</textarea>    
                         </span>
 
                         <span v-else>
-                            Product Name : \{{product.name}}<br />
-                            Product Colors : \{{product.color}} <br />
-                            Product Details : \{{product.details}}
+                            Product Name : \{{product.data.name}}<br />
+                            Product Colors : \{{product.data.color}} <br />
+                            Product Details : \{{product.data.details}}
                         </span>
                     </td>
 
                     <td>
-                        <button v-show="editOperation" id="edit_btn" v-on:click="productEditFired(code)" >Edit</button>
-                        <input v-show="deleteOperation" type="checkbox" id="check_box" name="delete" v-bind:value="code" />
-                        <button v-show="productEditStatus[code]" v-on:click="confirmEdit(code)" id="yes_btn">Yes</button>
-                        <button v-show="productEditStatus[code]" v-on:click="cancelEdit(code)" id="no_btn">No</button>
+                        <button v-show="editOperation" id="edit_btn" v-on:click="productEditFired(product.data.code)" >Edit</button>
+                        <input v-show="deleteOperation" type="checkbox" id="check_box" name="delete" v-bind:value="product.data.code" />
+                        <button v-show="productEditStatus[product.data.code]" v-on:click="confirmEdit(product.data.code)" id="yes_btn">Yes</button>
+                        <button v-show="productEditStatus[product.data.code]" v-on:click="cancelEdit(product.data.code)" id="no_btn">No</button>
                     </td>
                 </tr>
 
                 <tr>
                     <td colspan="4" align="right">
-                        <button v-show="deleteOperation">Delete</button>
+                        <button v-show="deleteOperation" v-on:click="deleteExistingProduct()" >Delete</button>
                     </td>
                 </tr>
             </tbody>
