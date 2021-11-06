@@ -16,9 +16,11 @@ All the product infromation for the pages is stored in JSON data file format. Th
 NodeJs and ExpressJs is in used for acting as a simple server for routing and serving the correct pages and datafiles. 
 
 ### Version 1.1
-~~~Currently on Progression~~~
+>Currently on Progression
+
 Prevision: Implementing admin login, admin portal for product modifications (Create, Update, Delete)
 
 ## Deployment 
 This website project is deployed by using Google Cloud Platform service provider. 
+
 URL: <https://cherry-pot-328201.as.r.appspot.com>
