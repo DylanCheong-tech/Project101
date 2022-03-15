@@ -23,4 +23,4 @@ Prevision: Implementing admin login, admin portal for product modifications (Cre
 ## Deployment 
 This website project is deployed by using Google Cloud Platform service provider. 
 
-URL: <https://cherry-pot-328201.as.r.appspot.com>
+URL: <https://cherrypot88.com>
