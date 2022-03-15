@@ -76,7 +76,9 @@ var div_frames = {
 	pot : document.getElementById("pot"),
 	potFeet : document.getElementById("potFeet"),
 	potHanger : document.getElementById("potHanger"),
-	saucer : document.getElementById("saucer")
+	saucer : document.getElementById("saucer"),
+	fencing : document.getElementById("fencing"),
+	seedlingPot : document.getElementById("seedlingPot")
 };
 
 // page setting
@@ -102,7 +104,9 @@ var pages = {
 	pot : document.getElementsByClassName("pot_page")[0],
 	potFeet : document.getElementsByClassName("potFeet_page")[0],
 	potHanger : document.getElementsByClassName("potHanger_page")[0],
-	saucer : document.getElementsByClassName("saucer_page")[0]
+	saucer : document.getElementsByClassName("saucer_page")[0],
+	fencing : document.getElementsByClassName("fencing_page")[0],
+	seedlingPot : document.getElementsByClassName("seedlingPot_page")[0]
 };
 
 function changePage (currentPage)
@@ -138,4 +142,6 @@ displayItems(div_frames["planterBox"], 0, requestData["planterBox"]);
 displayItems(div_frames["pot"], 0, requestData["pot"]);
 displayItems(div_frames["potFeet"], 0, requestData["potFeet"]);
 displayItems(div_frames["potHanger"], 0, requestData["potHanger"]);
-displayItems(div_frames["saucer"], 0, requestData["saucer"]);	
+displayItems(div_frames["saucer"], 0, requestData["saucer"]);
+displayItems(div_frames["fencing"], 0, requestData["fencing"]);
+displayItems(div_frames["seedlingPot"], 0, requestData["seedlingPot"]);
