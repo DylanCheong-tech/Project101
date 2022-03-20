@@ -67,45 +67,6 @@
 		},
 		"details": "Material: PLASTIC<br ><br >Size details:<ul><li>L 67cm x W 21cm x H 19 cm</li></ul>Whats' More:<ul><li>Modern design</li><li>Durable</li><li>Wide range of application</li><li>Conserve soil and space</li><li>Reusable</li><li>Enhance the beauty of your space with varieties of greeneries</li><li>Suitable for vegetables, plants, flowers, succulent, cactus, herbs</li><li>Utilize your space with this beautiful Planter Box at indoor or outdoor</li></ul>"
 	},
-	"CP-198": {
-		"name": "Harley Planter Box",
-		"path": "./img/Planter_Box/CP198/",
-		"img": {
-			"black": [
-				"BLACK_01.jpg",
-				"BLACK_02.jpg",
-				"BLACK_03.jpg"
-			],
-			"brown": [
-				"BROWN_01.jpg",
-				"BROWN_02.jpg",
-				"BROWN_03.jpg"
-			],
-			"cotta": [
-				"COTTA_01.jpg",
-				"COTTA_02.jpg",
-				"COTTA_03.jpg"
-			],
-			"white": [
-				"WHITE_01.jpg",
-				"WHITE_02.jpg",
-				"WHITE_03.jpg"
-			],
-			"dark_brown": [
-				"DARK_BROWN_01.jpg",
-				"DARK_BROWN_02.jpg",
-				"DARK_BROWN_03.jpg"
-			]
-		},
-		"color": {
-			"black": "#13190B",
-			"brown": "#DE641B",
-			"cotta": "#E28027",
-			"white": "#FFFFFF",
-			"dark_brown": "#8A6741"
-		},
-		"details": "Material: PP Resin<br ><br >Size details:<ul><li>Outside diameter: 19.8cm</li><li>Inside diameter: 17.5cm</li><li>Height: 15cm</li><li>Lower diameter: 12.5cm</li></ul>Whats' More:<ul><li>Modern design</li><li>Durable</li><li>Wide range of application</li><li>Conserve soil and space</li><li>Reusable</li><li>Enhance the beauty of your space with varieties of greeneries</li><li>Suitable for vegetables, plants, flowers, succulent, cactus, herbs</li><li>Utilize your space with this beautiful Planter Box at indoor or outdoor</li></ul>"
-	},
 	"CP-120": {
 		"name": "Emily Pot",
 		"path": "./img/Pot/CP120/",
@@ -226,6 +187,45 @@
 			"white": "#FFFFFF"
 		},
 		"details": "Material: PP RESIN<br ><br >Size details:<ul><li>D 26cm x W 26cm x H 18cm<li></ul>Whats' More:<ul><li>Comes with or without base holes options</li><li>Durable</li><li>Modern design</li><li>Suitable for growing aquatic plants</li></ul>"
+	},
+	"CP-198": {
+		"name": "Harley Square Pot",
+		"path": "./img/Pot/CP198/",
+		"img": {
+			"black": [
+				"BLACK_01.jpg",
+				"BLACK_02.jpg",
+				"BLACK_03.jpg"
+			],
+			"brown": [
+				"BROWN_01.jpg",
+				"BROWN_02.jpg",
+				"BROWN_03.jpg"
+			],
+			"cotta": [
+				"COTTA_01.jpg",
+				"COTTA_02.jpg",
+				"COTTA_03.jpg"
+			],
+			"white": [
+				"WHITE_01.jpg",
+				"WHITE_02.jpg",
+				"WHITE_03.jpg"
+			],
+			"dark_brown": [
+				"DARK_BROWN_01.jpg",
+				"DARK_BROWN_02.jpg",
+				"DARK_BROWN_03.jpg"
+			]
+		},
+		"color": {
+			"black": "#13190B",
+			"brown": "#DE641B",
+			"cotta": "#E28027",
+			"white": "#FFFFFF",
+			"dark_brown": "#8A6741"
+		},
+		"details": "Material: PP RESIN<br ><br >Size details:<ul><li>Outside diameter: 19.8cm</li><li>Inside diameter: 17.5cm</li><li>Height: 15cm</li><li>Lower diameter: 12.5cm</li></ul>Whats' More:<ul><li>Modern design</li><li>Durable</li><li>Wide range of application</li><li>Conserve soil and space</li><li>Reusable</li><li>Enhance the beauty of your space with varieties of greeneries</li><li>Suitable for vegetables, plants, flowers, succulent, cactus, herbs</li><li>Utilize your space with this beautiful Planter Box at indoor or outdoor</li></ul>"
 	},
 	"NP-80": {
 		"name": "Darwin Pot",
@@ -886,6 +886,45 @@
 		},
 		"details": "Material: PLASTIC <br ><br >Size details:<ul><li>29cm</li></ul><br >Product Bundle:<br ><br >None"
 	},
+	"CP-330": {
+		"name": "Calathea Saucer XXL",
+		"path": "./img/Saucer/CP330/",
+		"img": {
+			"black": [
+				"WITH_TEXT/BLACK_01.jpg",
+				"BLACK_01.jpg",
+				"BLACK_02.jpg"
+			],
+			"brown": [
+				"WITH_TEXT/BROWN_01.jpg",
+				"BROWN_01.jpg",
+				"BROWN_02.jpg"
+			],
+			"cotta": [
+				"WITH_TEXT/COTTA_01.jpg",
+				"COTTA_01.jpg",
+				"COTTA_02.jpg"
+			],
+			"white": [
+				"WITH_TEXT/WHITE_01.jpg",
+				"WHITE_01.jpg",
+				"WHITE_02.jpg"
+			],
+			"dark_brown": [
+				"WITH_TEXT/DARK_BROWN_01.jpg",
+				"DARK_BROWN_01.jpg",
+				"DARK_BROWN_02.jpg"
+			]
+		},
+		"color": {
+			"black": "#13190B",
+			"brown": "#DE641B",
+			"cotta": "#E28027",
+			"white": "#FFFFFF",
+			"dark_brown": "#8A6741"
+		},
+		"details": "Material: PP RESIN <br ><br >Size details:<ul><li>33cm</li></ul><br >Product Bundle:<br ><br >None"
+	},
 	"NP-934": {
 		"name": "Tatcher Plastic Mini Fencing",
 		"path": "./img/Fencing/NP934/",
@@ -905,7 +944,24 @@
 			"brown": "#DE641B",
 			"dark_brown": "#8A6741"
 		},
-		"details": "Material: PP Resin <br ><br >Size details:<ul><li>L: 23cm</li><li>H: 22cm</li></ul><br >Package Details:<br /> <ul><li>5pcs in one package</li><li>Total length of 115cm in 5pcs</li></ul>"
+		"details": "Material: PP RESIN <br ><br >Size details:<ul><li>L: 23cm</li><li>H: 22cm</li></ul><br >Package Details:<br /> <ul><li>5pcs in one package</li><li>Total length of 115cm in 5pcs</li></ul>"
+	},
+	"CP-935": {
+		"name": "Stanley Plastic Fencing",
+		"path": "./img/Fencing/CP935/",
+		"img": {
+			"white": [
+				"WHITE_01.jpg"
+			],
+			"brown": [
+				"BROWN_01.jpg"
+			]
+		},
+		"color": {
+			"white": "#FFFFFF",
+			"brown": "#DE641B"
+		},
+		"details": "Material: PP RESIN <br ><br >Size details:<ul><li>L: 16cm</li><li>H: 35.5cm</li></ul><br >Package Details:<br /> <ul><li>8pcs in one package</li><li>Total length of 136cm in 8pcs</li></ul>"
 	},
 	"CP-56": {
 		"name": "Lynwood Seedling Pot",
@@ -919,6 +975,6 @@
 		"color": {
 			"black": "#13190B"
 		},
-		"details": "Material: PP Resin <br ><br >Size details:<ul><li>Outside diameter: 4.5cm</li><li>Inside diameter: 4cm</li><li>Height: 6cm</li><li>Lower diameter: 3.5cm</li></ul><br >Product Bundle:<br ><br >None"
+		"details": "Material: PP RESIN <br ><br >Size details:<ul><li>Outside diameter: 4.5cm</li><li>Inside diameter: 4cm</li><li>Height: 6cm</li><li>Lower diameter: 3.5cm</li></ul><br >Product Bundle:<br ><br >None"
 	}
 }

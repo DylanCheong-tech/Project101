@@ -62,18 +62,18 @@
 	{
 		font-size: 1.5em;
 	}
-		
+
+	.pagination table {
+	  /* width: 100%; */
+	  margin: 1em;
+	}	
+
 	.pagination table td {
 	  border-radius: 5px;
 	  cursor: pointer;
 	  transition: all 1s;
-	  font-size: 20px;
-	}
-	
-	.pagination table {
-	  
-	  width: 5em;
-	  margin: 1em;
+	  font-size: 2.5em;
+	  width : 1.5em;
 	}
 	
 	.pagination {
