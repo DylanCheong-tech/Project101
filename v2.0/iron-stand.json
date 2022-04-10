@@ -1,0 +1,13 @@
+{
+    "code" : "",
+    "name" : "",
+    "colors" : [
+        {"name" : "", "stock" : ""}
+    ],
+    "dimensions" : {
+        "length" : 0,
+        "weight" : 0,
+        "height" : 0
+    },
+    "whatsmore" : [""]
+}

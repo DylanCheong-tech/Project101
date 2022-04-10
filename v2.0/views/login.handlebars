@@ -1,0 +1,48 @@
+<link rel="stylesheet" type="text/css" href="../css/login.css" />
+
+<!-- font style import links -->
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;400&display=swap" rel='stylesheet' />
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;400&family=Shanti&display=swap" rel="stylesheet" />
+
+<div id="header">
+    <div id="header">
+        <div id="logo">
+            <img alt="image_logo" src="../img/cp_logo.png" />
+        </div>
+
+    </div>
+</div>
+
+<div id="content">
+    <div id="img_div">
+        <img src="../img/admin.png" alt="img_" />
+    </div>
+
+    <div id="login_input">
+        <span>
+            <h1>Log In</h1>
+            <span>Please enter the credential below: </span>
+            <form action="/admin_login" method="POST">
+                <input type="text" placeholder="Username" name="username" />
+                <br />
+                <input id="password" type="password" placeholder="Password" name="password" />
+                <br />
+                <input type="checkbox" id="show_password" /> <for id="show_password">Show Password</for>
+                <br />
+                <button name="login">Login</button>
+            </form>
+            <span>{{message}}</span>
+        </span>
+    </div>
+</div>
+
+<footer id="footer">
+
+</footer>
+
+<script>
+    document.getElementById("show_password").addEventListener('click', () => {
+        var element = document.getElementById("password")
+        element.type = element.type == "text" ? "password" : "text";
+    });
+</script>

@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+	<title id="title"></title>
+	<!--Google jQuery CDN-->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+
+	<!--Google jQuery CDN (JS + stylesheet)-->
+	<link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/themes/smoothness/jquery-ui.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
+
+	<!-- font style import links -->
+	<link href="https://fonts.googleapis.com/css?family=Voces" rel='stylesheet' />
+	<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;400&display=swap" rel='stylesheet' />
+	<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;400&family=Shanti&display=swap"
+		rel="stylesheet" />
+
+	<!-- Vuejs CDN  -->
+	<script src="https://unpkg.com/vue@3"></script>
+
+	<!-- page icon -->
+	<link type="image/icon type" rel="icon" href="./img/cp_icon.png" />
+
+	<link rel="stylesheet" type="text/css" href="./css/header_footer_v1.0.css" />
+	<link rel="stylesheet" type="text/css" href="./css/productPage_v1.0.css" />
+</head>
+
+<body>
+	<div id="header">
+		<div id="logo">
+			<img alt="image_logo" src="./img/cp_logo.png" onclick="window.location.href='/';" />
+		</div>
+
+		<div id="menubar" align="right">
+			<span id="list">
+				<a href="/">Home</a>
+				<a href="#footer">Contact Us</a>
+			</span>
+		</div>
+	</div>
+
+	<div id="content">
+		<div id="item">
+			<div id="main_image" align="center">
+				<img alt="main_product_image" id="main_item_image"
+					v-bind:src="getImgFiles(currentColor)[currentSelectedImgIndex]" />
+
+				<!-- debug here  -->
+				<div id="image_selections">
+					<img v-for="(img, index) in getImgFiles(currentColor)" alt="product_image" class="image_items"
+						v-bind:id="'img_' + index" v-bind:src="img" style="cursor: pointer;"
+						v-on:click="changePic(index)">
+				</div>
+			</div>
+
+			<div id="info">
+				<h2 id="product_name">{{product.name}}</h2>
+				<h2 id="product_code">{{product.code}}</h2>
+
+				<span id="color_avail_text">Color Available:</span>
+
+				<!-- click event -->
+				<div id="colors">
+					<span class="color_circle" v-for="(color, index) in product.colors"
+						v-bind:id="color.name.replaceAll(' ', '')"
+						v-bind:style="'background-color:' + colors_dict[color.name] +';'"
+						v-on:click="changeColor(color.name, color.name.replaceAll(' ', ''), index)">
+					</span>
+				</div>
+
+				<p>
+					Stock Status : {{product.colors[currentSelectedColorIndex].stock}}
+				</p>
+
+				<p id="information">
+					Material: {{product.material}}
+					<br /><br />
+
+					Size details:
+				<ul>
+					<li v-show="product.dimensions.length != 0">Length: {{product.dimensions.length}} cm</li>
+					<li v-show="product.dimensions.width != 0">Width: {{product.dimensions.width}} cm</li>
+					<li v-show="product.dimensions.height != 0">Height: {{product.dimensions.height}} cm</li>
+					<li v-show="product.diameters.inside != 0">Inside Diameter: {{product.diameters.inside}} cm</li>
+					<li v-show="product.diameters.outside != 0">Outside Diameter: {{product.diameters.outside}} cm</li>
+					<li v-show="product.diameters.lower != 0">Lower Diamater: {{product.diameters.lower}} cm</li>
+				</ul>
+
+				<br /><br />
+				Whats' More:
+
+				<ul>
+					<li v-for="(item, index) in product.whatsmore">{{item}}</li>
+				</ul>
+
+				<br /><br />
+				Product Bundle:
+				<ul>
+					<li v-for="(item, index) in product.productBundle">{{item}}</li>
+				</ul>
+
+				<br /><br />
+				</p>
+
+			</div>
+
+
+		</div>
+	</div>
+
+	<footer id="footer">
+		<div id="company_info" align="left">
+			<div id="footer_logo" align="left">
+				<img alt="image_logo" src="./img/cp_logo_1.jpg" onclick="window.location.reload();" />
+			</div>
+
+			<div id="about_us" align="left">
+				<h2>Our Address</h2>
+				<p>No 17, Industri Bercham 2A, <br />Kaw Perindustrian Bercham, <br />31400 Bercham Ipoh Perak</p>
+
+				<h2>Contact Us <img src="./img/telephone_logo.png" alt="phone_logo" width="20em" /></h2>
+				<ol>
+					<li>(+60) 19 - 555 5538</li>
+					<li>(+60) 18 - 383 6381</li>
+				</ol>
+			</div>
+		</div>
+
+
+		<div id="media_connections" align="left">
+			<h2>Media Connections: </h2>
+			<span><a href="https://wa.me/60195555538" target="_blank"><img id="whatapps_icon" alt="whatapps_icon"
+						src="./img/whatsapp_logo.png" /></a></span>
+		</div>
+	</footer>
+
+	<!-- JavaScript for the item content -->
+	<script src="./js/productPage_v2.0.js"></script>
+
+</body>
+
+</html>
