@@ -23,9 +23,8 @@ const iron_bucket = storage.bucket("iron-products");
 // mongodb 
 const { MongoClient, Binary } = require("mongodb");
 
-// Replace the following with your Atlas connection string 
-// encode this connection string (since the password is inside here)                                                                                                                                       
-const mongo_url = "mongodb+srv://CherryPot-Admin:vNtbSNvonpXzGZbS@cherrypot.1cwz1.mongodb.net/CherryPot-Website?retryWrites=true&w=majority";
+// Replace the following with your Atlas connection string ß                                                                                                                                   
+const mongo_url = "##################################################################";
 
 // The database to use
 const dbName = "CherryPot-Website";
