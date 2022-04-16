@@ -16,12 +16,16 @@ All the product infromation for the pages is stored in JSON data file format. Th
 NodeJs and ExpressJs is in used for acting as a simple server for routing and serving the correct pages and datafiles. 
 
 ### Version 2.0
->Currently on Progression
 
-Prevision: Implementing admin login, admin portal for product modifications (Create, Update, Delete)
-Incoperate with: Google Cloud Storage (Storage Bucket) and NoSql MongoDB 
+This version is coming with some significant changes on the webpages. First, there is two category of the business products will be displaying on the page, Plastic Products and Iron Products. The page starting (as index.html) with the category display and let the use to choose which categore to view. All the main pages and product pages are implemented by using the fundamentals of VueJs framework. 
+
+Persistence data storages: 
+- mongodb: storing the metadata of each of the product information
+- Google Storage Bucket: storing all the blob product image files
+
+Furthermore, backstage portal is developed for business owner to access and modify the webpage contents freely. The portal page authentication Passport [LocalStrategy](https://www.passportjs.org/packages/passport-local/) middleware. 
 
 ## Deployment 
-This website project is deployed by using Google Cloud Platform service provider. 
+This website project is deployed by using Google Cloud Platform App Engine. 
 
 URL: <https://cherrypot88.com>
