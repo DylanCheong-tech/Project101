@@ -1,0 +1,140 @@
+body {
+    height: 100vh;
+    background-color: #E9F5DB;
+    font-family: 'Voces', cursive;
+}
+
+#header {
+    /*header background color here*/
+    background-color: #226D46;
+    padding: 20px;
+}
+
+#header div {
+    display: block;
+}
+
+#logo img {
+    height: auto;
+    width: 50%;
+}
+
+#logo {
+    height: 50%;
+}
+
+body div.category {
+    display: inline-block;
+    width: 49.9%;
+    height: 70vh;
+    border: 1px solid transparent;
+    overflow: hidden;
+    position: relative;
+}
+
+body div.category:nth-child(3) {
+    margin-left: -.5%;
+    /* right: 1px; */
+}
+
+body div.category * {
+    margin: 0;
+    width: 60%;
+    padding: 10px;
+}
+
+body div.category:not(:nth-child(1)):hover {
+    cursor: pointer;
+}
+
+body div.category span {
+    display: block;
+    text-align: center;
+    font-weight: bold;
+}
+
+body div.category .image {
+    position: relative;
+    left: 0;
+    top: 0;
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    height: 100%;
+    display: inline;
+    opacity: 0.8;
+    transition: 1s ease-in-out;
+}
+
+body div.category:hover .image {
+    left: -3em;
+    top: -3em;
+    width: 125%;
+    height: 125%;
+}
+
+body div.category .highlight {
+    position: absolute;
+    left: 18%;
+    top: 68%;
+    height: 20%;
+    background-color: #FFFFFF;
+    opacity: 0.5;
+    border-radius: 15px;
+}
+
+body div.category .title {
+    font-size: 2em;
+    position: absolute;
+    left: 18%;
+    top: 70%;
+    margin: 0;
+    text-shadow: 2px 2px 4px #FFFFFF;
+}
+
+body div.category .text {
+    position: absolute;
+    left: 18%;
+    top: 80%;
+    margin: 0;
+    background-color: transparent;
+    font-size: 1.5em;
+}
+
+footer {
+    margin-top: auto;
+    background-color: #226D46;
+    padding: 1.5%;
+}
+
+@media screen and (max-width: 1200px) {
+    body div.category {
+        display: block;
+        margin: 0;
+        width: auto;
+        height: auto;
+    }
+
+    body div.category:nth-child(3) {
+        top: -.5em;
+    }
+
+    body div.category:nth-child(3) {
+        margin: 0;
+    }
+
+    body div.category .highlight {
+        left: 13%;
+        width: 70%;
+    }
+
+    body div.category .title {
+        font-size: 1.5em;
+        left: 13%;
+        width: 70%;
+    }
+
+    body div.category .text {
+        font-size: 1em;
+    }
+}
