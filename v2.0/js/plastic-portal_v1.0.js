@@ -37,7 +37,8 @@ const portal = Vue.createApp({
                 "Pot Hanger",
                 "Saucer",
                 "Fencing",
-                "Seedling Pot"
+                "Seedling Pot",
+                "Florist Pot"
             ],
 
             edit_img_updated: {},
